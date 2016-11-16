@@ -20,6 +20,13 @@
         "logoUrl": "../images/logos/digital_harbor.png",
         "width": 260,
         "height": 120
+      },
+      {
+        "name": "Salamanca Solutions",
+        "url": "http://www.salamancasolutions.com/es/",
+        "logoUrl": "../images/logos/salamanca_solutions.png",
+        "width": 200,
+        "height": 100
       }
     ]
   },

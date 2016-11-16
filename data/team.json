@@ -166,6 +166,16 @@
         "name": "Ivo Rojas",
         "photoUrl": "/images/people/ivo_rojas.jpg",
         "title": "Equipo Azul y Naranja"
+      },
+      {
+        "name": "Mijael Vargas",
+        "photoUrl": "/images/people/mijael_vargas.jpg",
+        "title": "Equipo Rosado"
+      },
+      {
+        "name": "Giovana Brañez Mamani",
+        "photoUrl": "/images/people/gio_branez.jpg",
+        "title": "Equipo Rojo"
       }
     ]
   }
