@@ -118,7 +118,7 @@
         "title": "Equipo Rojo y Naranja"
       },
       {
-        "name": "Carlos Fernando Collazos Barrancos",
+        "name": "Carlos Collazos",
         "photoUrl": "/images/people/carlos_collazos.jpg",
         "title": "En todos los equipos"
       },
@@ -174,8 +174,13 @@
       },
       {
         "name": "Giovana Brañez Mamani",
-        "photoUrl": "/images/people/gio_branez.jpg",
+        "photoUrl": "/images/people/giovana_branez.jpg",
         "title": "Equipo Rojo"
+      },
+      {
+        "name": "Andrea Puente Salazar",
+        "photoUrl": "/images/people/andrea_puente.jpg",
+        "title": "Equipo Rosado"
       }
     ]
   }

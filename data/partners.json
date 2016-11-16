@@ -8,6 +8,13 @@
         "logoUrl": "../images/logos/ucatec.png",
         "width": 200,
         "height": 120
+      },
+      {
+        "name": "Toptal",
+        "url": "https://www.toptal.com/",
+        "logoUrl": "../images/logos/toptal.png",
+        "width": 200,
+        "height": 120
       }
     ]
   },
@@ -37,12 +44,6 @@
         "name": "CodeRoad",
         "url": "https://www.facebook.com/CodeRoad/",
         "logoUrl": "../images/logos/coderoad.png",
-        "width": 200
-      },
-      {
-        "name": "Hotel Regina",
-        "url": "http://www.hotelreginabolivia.com/",
-        "logoUrl": "../images/logos/hotel_regina.png",
         "width": 200
       }
     ]
