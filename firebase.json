@@ -1,22 +1,16 @@
 {
-  "database": {
-    "rules": "database.rules.json"
-  },
   "hosting": {
-    "public": "./build/bundled",
-    "cleanUrls": true,
-    "rewrites": [
+    "public": "build/bundled/",
+    "headers": [
       {
-        "source": "**/*",
-        "destination": "/index.html"
+        "source": "**/*.@(jpg|jpeg|png)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=7200"
+          }
+        ]
       }
-    ],
-    "ignore": [
-      "/test/**",
-      "bower.json",
-      "database.rules.json",
-      "firebase.json",
-      "README.md"
     ]
   }
 }

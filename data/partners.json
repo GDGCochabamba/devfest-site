@@ -1,72 +1,42 @@
 [
   {
-    "title": "template-creator",
+    "title": "auspiciador-oro",
     "logos": [
       {
-        "name": "GDG Lviv",
-        "url": "https://plus.google.com/102444623953913144164",
-        "logoUrl": "../images/logos/gdg-lviv.svg",
-        "width": 170
+        "name": "Universidad Ucatec",
+        "url": "http://new.ucatec.edu.bo/ucatec/",
+        "logoUrl": "../images/logos/ucatec.png",
+        "width": 200,
+        "height": 120
       }
     ]
   },
   {
-    "title": "general-partner",
+    "title": "auspiciador-plata",
     "logos": [
       {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
+        "name": "Digital Harbor",
+        "url": "https://www.facebook.com/dharborBO/",
+        "logoUrl": "../images/logos/digital_harbor.png",
+        "width": 260,
+        "height": 120
+      }
+    ]
+  },
+  {
+    "title": "auspiciador-bronce",
+    "logos": [
+      {
+        "name": "CodeRoad",
+        "url": "https://www.facebook.com/CodeRoad/",
+        "logoUrl": "../images/logos/coderoad.png",
+        "width": 200
       },
       {
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
-      },
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
-      },
-      {
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
-      },
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
-      },
-      {
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
-      },
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
-      },
-      {
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
-      },
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
-      },
-      {
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
-      },
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
+        "name": "Hotel Regina",
+        "url": "http://www.hotelreginabolivia.com/",
+        "logoUrl": "../images/logos/hotel_regina.png",
+        "width": 200
       }
     ]
   }

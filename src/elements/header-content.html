@@ -107,6 +107,10 @@
         margin-right: 5px;
       }
 
+      paper-button.primary {
+        color: white;
+      }
+
       @media (min-width: 601px) {
         .container {
           padding-bottom: 40px;
@@ -129,7 +133,7 @@
         <animatable-content name="home">
           <div class="container" center-justified>
             <div class="home-wrapper">
-              <iron-image class="logo" src="/images/logo-light.svg" sizing="contain"
+              <iron-image class="logo" src="/images/logo-light-cbba.svg" sizing="contain"
                           alt="GDG DevFest Ukraine 2016"></iron-image>
               <h3 class="dates">{{localize('dates')}}</h3>
               <h2 class="motto">{{localize('motto')}}</h2>
@@ -143,14 +147,7 @@
             </div>
           </div>
         </animatable-content>
-        <animatable-content name="blog">
-          <div class="container">
-            <h3 class="page-title" hidden$="{{app.headerSettings.title}}">{{localize('blog')}}</h3>
-            <h3 class="page-title" hidden$="{{!app.headerSettings.title}}">[[app.headerSettings.title]]</h3>
-            <div class="page-subtitle" hidden$="{{!app.headerSettings.subtitle}}">[[app.headerSettings.subtitle]]</div>
-          </div>
-        </animatable-content>
-        <animatable-content name="speakers">
+        <!-- <animatable-content name="speakers">
           <div class="container">
             <h3 class="page-title">{{localize('speakers')}}</h3>
           </div>
@@ -159,15 +156,10 @@
           <div class="container">
             <h3 class="page-title">{{localize('schedule')}}</h3>
           </div>
-        </animatable-content>
+        </animatable-content> -->
         <animatable-content name="team">
           <div class="container">
             <h3 class="page-title">{{localize('team')}}</h3>
-          </div>
-        </animatable-content>
-        <animatable-content name="cod">
-          <div class="container">
-            <h3 class="page-title">{{localize('cod')}}</h3>
           </div>
         </animatable-content>
       </neon-animated-pages>
@@ -202,11 +194,11 @@
         _openVideo: function () {
           HOVERBOARD.Elements.Template.openVideo(this.app.data.pages.home.headerSettings.video.title,
             this.app.data.pages.home.headerSettings.video.youtubeId, true);
-          HOVERBOARD.Analytics.trackEvent('video', 'watch', this.app.data.pages.home.headerSettings.video.title);
+          // HOVERBOARD.Analytics.trackEvent('video', 'watch', this.app.data.pages.home.headerSettings.video.title);
         },
 
         _scrollToTickets: function () {
-          HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', 'header');
+          // HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', 'header');
           Polymer.AppLayout.scroll({
             top: HOVERBOARD.Elements.Tickets.getBoundingClientRect().top,
             behavior: 'smooth',

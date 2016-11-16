@@ -1,216 +1,171 @@
 [
   {
-    "title": "Core Team",
+    "title": "GDG y WTM Cochabamba",
     "members": [
       {
-        "name": "Oleh Zasadnyy",
-        "photoUrl": "/images/people/oleh_zasadnyy.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+OlehZasadnyy",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/oleh.zasadnyy",
-            "name": "Facebook"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/ozasadnyy",
-            "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "http://o.zasadnyy.com/",
-            "name": "Blog"
-          }
-        ],
-        "title": "Website and sponsors"
+        "name": "Jaime Daniel Asín Achá",
+        "photoUrl": "/images/people/daniel_asin.jpg",
+        "title": "Equipo Verde"
       },
       {
-        "name": "Sofiya Huts",
-        "photoUrl": "/images/people/sofiya_huts.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+SofiaHuts",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/sophie.huts.7",
-            "name": "Facebook"
-          }
-        ],
-        "title": "Social and media"
+        "name": "Andres Jordan Zeballos",
+        "photoUrl": "/images/people/andres_jordan.jpg",
+        "title": "Equipo Verde"
       },
       {
-        "name": "Vitaliy Zasadnyy",
-        "photoUrl": "/images/people/vitaliy_zasadnyy.jpg",
-        "socials": [
-          {
-            "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/zasadnyy",
-            "name": "Linkedin"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/zasadnyy",
-            "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "http://v.zasadnyy.com/",
-            "name": "Blog"
-          }
-        ],
-        "title": "Speakers"
+        "name": "Vania Marisela Catorceno Carballo",
+        "photoUrl": "/images/people/vania_catorceno.jpg",
+        "title": "Equipo Rosado y Rojo"
       },
       {
-        "name": "Marta Maxymiak",
-        "photoUrl": "/images/people/marta_maxymiak.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/104036874811391520583",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/marta.maxymiak",
-            "name": "Facebook"
-          }
-        ],
-        "title": "Party and happiness"
+        "name": "Franco Gabriel Montiel Sandoval",
+        "photoUrl": "/images/people/franco_montiel.jpg",
+        "title": "Equipo Blanco"
       },
       {
-        "name": "Ostap Andrusiv",
-        "photoUrl": "/images/people/ostap_andrusiv.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://google.com/+OstapAndrusiv",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/ostap.andrusiv",
-            "name": "Facebook"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/p1f",
-            "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "http://andrusiv.com/",
-            "name": "Blog"
-          }
-        ],
-        "title": "Sponsors"
+        "name": "Pamela Wendy Arnez Sanchez",
+        "photoUrl": "/images/people/pamela_arnez.jpg",
+        "title": "Equipo Azul"
       },
       {
-        "name": "Vasylyna Mytsak",
-        "photoUrl": "/images/people/vasylyna_mytsak.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+ВасилинаМицак",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/vasylyna.mytsak",
-            "name": "Facebook"
-          }
-        ],
-        "title": "Party and happiness"
+        "name": "Nibeth Mena",
+        "photoUrl": "/images/people/nibeth_mena.jpg",
+        "title": "Equipo Rojo y Rosado"
       },
       {
-        "name": "Volodya Karpliuk",
-        "photoUrl": "/images/people/volodya_karpliuk.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+VolodyaKarpliuk23",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/volodya.karpluk",
-            "name": "Facebook"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/keyv23",
-            "name": "Twitter"
-          }
-        ],
-        "title": "Speakers"
+        "name": "Eneyda Quispe",
+        "photoUrl": "/images/people/eneyda_quispe.jpg",
+        "title": "Equipo Blanco"
       },
       {
-        "name": "Diana Pinchuk",
-        "photoUrl": "/images/people/diana_pinchuk.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+DianaPinchuk",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/diana.pinchuk.9",
-            "name": "Facebook"
-          }
-        ],
-        "title": "Social and media"
-      }
-    ]
-  },
-  {
-    "title": "Program Committee",
-    "members": [
-      {
-        "name": "Ihor Dvoretskyi",
-        "photoUrl": "/images/people/ihor_dvoretskyi.jpg",
-        "socials": [
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/idvoretskyi",
-            "name": "Facebook"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/idvoretskyi",
-            "name": "Twitter"
-          }
-        ],
-        "title": "Cloud stream"
+        "name": "Vanessa Alcocer",
+        "photoUrl": "/images/people/vanessa_alcocer.jpg",
+        "title": "Equipo Azul"
       },
       {
-        "name": "Dmytro Danylyk",
-        "photoUrl": "/images/people/dmytro_danylyk.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+DmytroDanylyk",
-            "name": "Google+"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/dmytrodanylyk",
-            "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "http://www.dmytrodanylyk.com/#/about",
-            "name": "Website"
-          }
-        ],
-        "title": "Android Stream"
+        "name": "Jhonatan Candia Romero",
+        "photoUrl": "/images/people/jhonatan_candia.jpg",
+        "title": "Equipo Blanco"
+      },
+      {
+        "name": "Luz María Maida",
+        "photoUrl": "/images/people/luz_maida.jpg",
+        "title": "En todos los equipos"
+      },
+      {
+        "name": "Mariela Cladera Mamani",
+        "photoUrl": "/images/people/mariela_cladera.jpg",
+        "title": "Equipo Blanco"
+      },
+      {
+        "name": "Irvin Cossio Chavalier",
+        "photoUrl": "/images/people/irvin_cossio.jpg",
+        "title": "Equipo Rojo"
+      },
+      {
+        "name": "Jacqueline Susan Mejía C.",
+        "photoUrl": "/images/people/susan_mejia.jpg",
+        "title": "Equipo Verde y Rojo"
+      },
+      {
+        "name": "Vanessa Brenda Sanjinez Rivera",
+        "photoUrl": "/images/people/vanessa_sanginez.jpg",
+        "title": "Equipo Blanco"
+      },
+      {
+        "name": "Marcela Llanos",
+        "photoUrl": "/images/people/marcela_llanos.jpg",
+        "title": "Equipo Rojo y Rosado"
+      },
+      {
+        "name": "Allan Carlos León Mendieta",
+        "photoUrl": "/images/people/allan_leon.jpg",
+        "title": "Equipo Blanco"
+      },
+      {
+        "name": "Luis Alberto Aviles Zambrana",
+        "photoUrl": "/images/people/luis_aviles.jpg",
+        "title": "Equipo Morado y Verde"
+      },
+      {
+        "name": "Nadim Diaz Ramzi",
+        "photoUrl": "/images/people/nadim_diaz.jpg",
+        "title": "Equipo Rosado"
+      },
+      {
+        "name": "Cristhyan Royer Cabezas Burgoa",
+        "photoUrl": "/images/people/cristyan_cabezas.jpg",
+        "title": "Equipo Blanco"
+      },
+      {
+        "name": "Rodrigo Torrico Del Castillo",
+        "photoUrl": "/images/people/rodrigo_torrico.jpg",
+        "title": "Equipo Rojo"
+      },
+      {
+        "name": "Danny Rodriguez Montecinos",
+        "photoUrl": "/images/people/danny_rodriguez.jpg",
+        "title": "Equipo Rojo"
+      },
+      {
+        "name": "Jeymi Brigitte Paulas Condori",
+        "photoUrl": "/images/people/jeymi_paulas.jpg",
+        "title": "Equipo Rojo"
+      },
+      {
+        "name": "Johan Carlos Zerna Orellana",
+        "photoUrl": "/images/people/johan_zerna.jpg",
+        "title": "Equipo Rojo y Naranja"
+      },
+      {
+        "name": "Carlos Fernando Collazos Barrancos",
+        "photoUrl": "/images/people/carlos_collazos.jpg",
+        "title": "En todos los equipos"
+      },
+      {
+        "name": "Elias Coca Ovando",
+        "photoUrl": "/images/people/elias_coca.jpg",
+        "title": "Equipo Rojo"
+      },
+      {
+        "name": "Igor Buergo Calizaya",
+        "photoUrl": "/images/people/igor_buergo.jpg",
+        "title": "Equipo Azul"
+      },
+      {
+        "name": "Yury Camacho",
+        "photoUrl": "/images/people/yury_camacho.jpg",
+        "title": "En todos los equipos"
+      },
+      {
+        "name": "Julio Silva",
+        "photoUrl": "/images/people/julio_silva.jpg",
+        "title": "En casi todos los equipos xD"
+      },
+      {
+        "name": "Carlita Roman",
+        "photoUrl": "/images/people/carlita_roman.jpg",
+        "title": "Equipo Naranja"
+      },
+      {
+        "name": "Cristian Mamani",
+        "photoUrl": "/images/people/cris_mamani.jpg",
+        "title": "Equipo Morado"
+      },
+      {
+        "name": "Martin Arispe",
+        "photoUrl": "/images/people/martin_arispe.jpg",
+        "title": "Equipo Verde y Rosado"
+      },
+      {
+        "name": "Ariel Mamani Nina",
+        "photoUrl": "/images/people/ariel_mamani.jpg",
+        "title": "Equipo Rojo"
+      },
+      {
+        "name": "Ivo Rojas",
+        "photoUrl": "/images/people/ivo_rojas.jpg",
+        "title": "Equipo Azul y Naranja"
       }
     ]
   }

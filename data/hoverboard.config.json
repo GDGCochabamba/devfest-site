@@ -9,13 +9,13 @@
   "pages": {
     "home": {
       "headerSettings": {
-        "backgroundColor": "#FF9800",
-        "backgroundImage": "/images/backgrounds/home.png",
+        "backgroundColor": "#518EF3",
+        "backgroundImage": "/images/backgrounds/devfest-gdg-wtm-2016-2.jpg",
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         "video": {
-          "title": "GDG DevFest Ukraine 2016",
-          "youtubeId": "TdpbgRgz6eE",
+          "title": "GDG DevFest Cochabamba 2016",
+          "youtubeId": "uPn__0e0Ij0",
           "text": "See how it was in 2016"
         },
         "hideLogo": true,
@@ -64,23 +64,11 @@
       "permalink": "/"
     },
     {
-      "route": "blog",
-      "permalink": "/blog/"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule/"
-    },
-    {
-      "route": "speakers",
-      "permalink": "/speakers/"
-    },
-    {
       "route": "team",
       "permalink": "/team/"
     }
   ],
-  "url": "https://hoverboard.firebaseapp.com/",
+  "url": "https://devfest.gdg.com.bo/",
   "mailchimp": {
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
@@ -106,42 +94,16 @@
           "url": "/team/"
         },
         {
-          "text": "cod",
-          "url": "/cod/"
+          "text": "gdg-cochabamba",
+          "url": "https://www.facebook.com/GDGCochabamba/"
+        },
+        {
+          "text": "wtm-cochabamba",
+          "url": "https://www.facebook.com/WomenTechmakersCochabamba/"
         },
         {
           "text": "google-developers",
           "url": "https://developers.google.com/",
-          "newTab": true
-        },
-        {
-          "text": "df-13",
-          "url": "http://gdg-devfest-ua.appspot.com/",
-          "newTab": true
-        },
-        {
-          "text": "df-14",
-          "url": "http://devfest.gdg.org.ua/2014/",
-          "newTab": true
-        },
-        {
-          "text": "df-15",
-          "url": "http://devfest.gdg.org.ua/2015/",
-          "newTab": true
-        }
-      ]
-    },
-    {
-      "title": "for-partners",
-      "links": [
-        {
-          "text": "partnership-proposition",
-          "url": "http://bit.ly/df16-sponsor",
-          "newTab": true
-        },
-        {
-          "text": "media-kit",
-          "url": "http://bit.ly/df16-media",
           "newTab": true
         }
       ]
@@ -150,36 +112,18 @@
   "contactBlock": {
     "links": [
       {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
+        "text": "cochabamba@gdg.com.bo",
+        "url": "mailto:cochabamba@gdg.com.bo"
       }
     ]
   },
   "tickets": {
-    "url": "http://2event.com/events/630032",
+    "url": "https://goo.gl/forms/xXqT9lybhuHhAxf13",
     "elements": [
       {
-        "name": "student-ticket",
-        "price": 500,
-        "currency": "₴",
-        "starts": "student-ticket-starts",
-        "ends": "student-ticket-ends",
-        "info": "student-ticket-info",
-        "soldOut": false
-      },
-      {
-        "name": "early-ticket",
-        "price": 750,
-        "currency": "₴",
-        "starts": "early-ticket-starts",
-        "ends": "early-ticket-ends",
-        "info": "early-ticket-info",
-        "soldOut": true
-      },
-      {
         "name": "lazy-ticket",
-        "price": 1000,
-        "currency": "₴",
+        "price": 40,
+        "currency": "bs",
         "starts": "lazy-ticket-starts",
         "ends": "lazy-ticket-ends",
         "soldOut": false
@@ -209,48 +153,38 @@
   "hashtag": "dfua",
   "social": [
     {
-      "name": "twitter",
-      "nickname": "GDGLviv",
-      "url": "https://twitter.com/gdglviv"
-    },
-    {
       "name": "gplus",
-      "nickname": "102444623953913144164",
-      "url": "https://plus.google.com/102444623953913144164"
+      "nickname": "107589533385257090652",
+      "url": "https://plus.google.com/107589533385257090652"
     },
     {
       "name": "facebook",
-      "nickname": "GDGLviv",
-      "url": "https://www.facebook.com/GDGLviv"
-    },
-    {
-      "name": "linkedin",
-      "nickname": "google-developers-group-lviv",
-      "url": "https://www.linkedin.com/company/google-developers-group-lviv"
+      "nickname": "GDGCochabamba",
+      "url": "https://www.facebook.com/GDGCochabamba"
     }
   ],
   "tweetsSource": "/data/tweets.json",
   "gallery": {
-    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
+    "albumUrl": "https://www.facebook.com/pg/GDGCochabamba/photos/",
     "photos": {
-      "big": "/images/backgrounds/2015_1.jpg",
+      "big": "/images/backgrounds/dia-de-la-mujer-boliviana-2016.jpg",
       "small": [
-        "/images/backgrounds/2015_2.jpg",
-        "/images/backgrounds/2015_3.jpg"
+        "https://lh3.googleusercontent.com/-jXRzMnCir3Y/VuS0mFsT0dI/AAAAAAAAEAQ/YFQM3n4bGr4/w1060-h706-p-rw/IMG_6453.JPG",
+        "https://lh3.googleusercontent.com/Pjh8e5fdLWosHJMKP4sEmns1OiTvy_NXzvBwJiyXBvBa9lXS9eFa0rkoD29advjCNMVx8uGUFozpJD9ex7aDcmDKUCPkJR8iXFp7ur-65KmGWBVEyJIQRKTnqd-kwK3Qv3X4cjEA_oE4xwtI-0zlNFd91Z81YRZd0SvtgkvwLLQuZT16DImb7ANazuc8mnKqWZLjdJTDl2Yzx1BcdD8jV6UCflG9DUHcT3Q5BRNskLZxZqGnWfyn9tvaDYBbxDtMrbqd69ls6QqavzPcPXYUx-VuuymzF3z1Utqwd6S6XmjgxZucP24gAXLSgnxKcvSykbpCt_B5iOuJEU94-ln9Q884RSRIkajG9h9nLLijDabXd737DQusoRvk2OPuZOgl_cqnefDJBSg93rt4aivziHGgYQ27G2wcOsFbXEdKSdOsPsJqUwShXrFluvMaBPhDBHKLJfAd8swgZS5dXthC6X6PlK2vnRilQfdQvE3QPqQzBwXNBhFCel-3HmOoLF_pZ2axyjkdJ9N_KhmvNbpUHCZaGh7sS1ySKsKnK0vYjYpemQZOZn1vwaRK17k9EASAhJ1RUcAQiL8Lvii7mhiM38adfFN8az7dZLjfbdtYStFrzi8B=w2048-h1536-no"
       ]
     }
   },
   "location": {
-    "apiKey": "",
-    "link": "https://www.facebook.com/expopivdennij",
+    "apiKey": "AIzaSyBZFCjtlVrxNCPAWVrDth6yIWJhlGedkkU",
+    "link": "https://www.facebook.com/pg/UNIVERSIDAD.UCATEC",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
-      "zoom": 15
+      "latitude": -17.3708434,
+      "longitude": -66.1369000,
+      "zoom": 17
     },
     "mapCenter": {
-      "latitude": 49.809841,
-      "longitude": 23.982805
+      "latitude": -17.3709434,
+      "longitude": -66.1340000
     },
     "images": [
       "/images/backgrounds/location_1.jpg",

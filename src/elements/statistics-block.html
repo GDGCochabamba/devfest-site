@@ -12,7 +12,7 @@
       :host {
         display: block;
         background: var(--default-primary-color);
-        color: var(--text-primary-color);
+        color: white;
       }
 
       .container {
@@ -62,12 +62,12 @@
 
     <div class="container">
       <div class="statistics-wrapper">
-        <template is="dom-repeat" items="[[app.data.statistics]]" as="statistic">
+        <!-- <template is="dom-repeat" items="[[app.data.statistics]]" as="statistic">
           <div class="statistics-element">
             <span class="counter">[[statistic.counter]]</span>
             <span class="caption">[[localize(statistic.caption)]]</span>
           </div>
-        </template>
+        </template> -->
       </div>
       <div class="description">[[localize('description')]]</div>
     </div>

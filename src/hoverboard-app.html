@@ -121,21 +121,6 @@
       posts="{{posts}}"
     ></app-data>
 
-    <firebase-app
-      name="[[app.data.firebase.name]]"
-      auth-domain="[[app.data.firebase.domain]]"
-      database-url="[[app.data.firebase.database]]"
-      api-key="[[app.data.firebase.api]]"
-    >
-    </firebase-app>
-    <firebase-auth
-      id="auth"
-      provider="google"
-      app-name="[[app.data.firebase.name]]"
-      user="{{app.user}}"
-    >
-    </firebase-auth>
-
     <app-drawer-layout id="drawerLayout" drawer-width="599px" force-narrow>
 
       <app-drawer
@@ -178,12 +163,7 @@
                      posts="{{posts}}"
                      videos="{{videos}}"></home-page>
 
-          <blog-page name="blog"
-                     app="{{app}}"
-                     route="{{subRoute}}"
-                     posts="{{posts}}"></blog-page>
-
-          <speakers-page name="speakers"
+          <!-- <speakers-page name="speakers"
                          app="{{app}}"
                          route="{{subRoute}}"
                          speakers="{{speakers}}"></speakers-page>
@@ -192,13 +172,10 @@
                          app="{{app}}"
                          route="{{subRoute}}"
                          schedule="{{schedule}}"
-                         sessions="{{sessions}}"></schedule-page>
+                         sessions="{{sessions}}"></schedule-page> -->
 
           <team-page name="team"
                      app="{{app}}"></team-page>
-
-          <cod-page name="cod"
-                    app="{{app}}"></cod-page>
 
         </neon-animated-pages>
       </div>
