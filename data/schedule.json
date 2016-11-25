@@ -1,6 +1,6 @@
 [{
     "date": "2016-09-09",
-    "dateReadable": "September 9",
+    "dateReadable": "Auditorio Principal",
     "tracks": [{
         "title": "Expo hall"
     }, {
@@ -9,101 +9,66 @@
         "title": "Workshops hall"
     }],
     "timeslots": [{
-        "startTime": "09:00",
-        "endTime": "10:00",
+        "startTime": "08:00",
+        "endTime": "08:15",
         "sessions": [
             [132]
         ]
-    }, {
-        "startTime": "10:00",
-        "endTime": "10:15",
+    }, 
+    {
+        "startTime": "08:15",
+        "endTime": "08:55",
         "sessions": [
             [136]
         ]
-    }, {
-        "startTime": "10:15",
-        "endTime": "11:00",
-        "sessions": [
-            [139]
-        ]
-    }, {
-        "startTime": "11:00",
-        "endTime": "11:40",
-        "sessions": [
-            [103],
-            [120],
-            [109]
-        ]
-    }, {
-        "startTime": "11:50",
-        "endTime": "12:30",
-        "sessions": [
-            [129],
-            [116],
-            [109]
-        ]
-    }, {
-        "startTime": "12:30",
-        "endTime": "14:00",
-        "sessions": [
-            [133]
-        ]
-    }, {
-        "startTime": "14:00",
-        "endTime": "14:40",
-        "sessions": [
-            [101],
-            [118],
-            [107]
-        ]
-    }, {
-        "startTime": "14:50",
-        "endTime": "15:30",
-        "sessions": [
-            [140],
-            [126],
-            [107]
-        ]
-    }, {
-        "startTime": "15:30",
-        "endTime": "16:00",
-        "sessions": [
-            [134]
-        ]
-    }, {
-        "startTime": "16:00",
-        "endTime": "16:40",
-        "sessions": [
-            [105],
-            [127],
-            [119]
-        ]
-    }, {
-        "startTime": "16:50",
-        "endTime": "17:30",
-        "sessions": [
-            [112],
-            [111],
-            [119]
-        ]
-    }, {
-        "startTime": "17:40",
-        "endTime": "18:20",
-        "sessions": [
-            [106],
-            [125],
-            [119]
-        ]
-    }, {
-        "startTime": "18:30",
-        "endTime": "22:30",
+    },
+    {
+        "startTime": "09:05",
+        "endTime": "10:00",
         "sessions": [
             [137]
         ]
-    }]
-}, {
-    "date": "2016-09-10",
-    "dateReadable": "September 10",
+    },
+    {
+        "startTime": "10:15",
+        "endTime": "11:10",
+        "sessions": [
+            [138]
+        ]
+    },
+    {
+        "startTime": "11:20",
+        "endTime": "12:15",
+        "sessions": [
+            [139]
+        ]
+    },
+    {
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "sessions": [
+            [140]
+        ]
+    },
+    {
+        "startTime": "14:10",
+        "endTime": "14:50",
+        "sessions": [
+            [141]
+        ]
+    },
+    {
+        "startTime": "15:00",
+        "endTime": "15:40",
+        "sessions": [
+            [142]
+        ]
+    }
+]
+},
+{
+    "date": "2016-09-09",
+    "dateReadable": "Ambiente 2",
     "tracks": [{
         "title": "Expo hall"
     }, {
@@ -112,78 +77,155 @@
         "title": "Workshops hall"
     }],
     "timeslots": [{
-        "startTime": "09:30",
-        "endTime": "10:10",
+        "startTime": "13:00",
+        "endTime": "13:40",
         "sessions": [
-            [135]
+            [143]
         ]
-    }, {
-        "startTime": "10:10",
-        "endTime": "10:50",
+    }, 
+    {
+        "startTime": "13:45",
+        "endTime": "14:25",
         "sessions": [
-            [114],
-            [117],
-            [121]
+            [144]
         ]
-    }, {
-        "startTime": "11:00",
-        "endTime": "11:40",
+    },
+    {
+        "startTime": "14:30",
+        "endTime": "15:10",
         "sessions": [
-            [122],
-            [113],
-            [121]
+            [145]
         ]
-    }, {
-        "startTime": "11:50",
-        "endTime": "12:30",
+    },
+    {
+        "startTime": "15:15",
+        "endTime": "15:55",
         "sessions": [
-            [104],
-            [124],
-            [121]
+            [146]
         ]
-    }, {
-        "startTime": "12:30",
-        "endTime": "14:00",
+    },
+    {
+        "startTime": "16:10",
+        "endTime": "16:50",
         "sessions": [
-            [133]
+            [147]
         ]
-    }, {
-        "startTime": "14:00",
-        "endTime": "14:40",
-        "sessions": [
-            [108],
-            [128],
-            [102]
-        ]
-    }, {
-        "startTime": "14:50",
-        "endTime": "15:30",
-        "sessions": [
-            [110],
-            [123],
-            [102]
-        ]
-    }, {
-        "startTime": "15:30",
-        "endTime": "16:00",
-        "sessions": [
-            [134]
-        ]
-    }, {
-        "startTime": "16:00",
-        "endTime": "16:40",
-        "sessions": [
-            [131],
-            [140],
-            [130]
-        ]
-    }, {
+    },
+    {
         "startTime": "16:50",
         "endTime": "17:30",
         "sessions": [
-            [115],
-            [140],
-            [130]
+            [148]
         ]
-    }]
-}]
+    },
+    {
+        "startTime": "17:30",
+        "endTime": "18:00",
+        "sessions": [
+            [149]
+        ]
+    }
+]
+},
+{
+    "date": "2016-09-09",
+    "dateReadable": "Laboratorio 1",
+    "tracks": [{
+        "title": "Expo hall"
+    }, {
+        "title": "Conference hall"
+    }, {
+        "title": "Workshops hall"
+    }],
+    "timeslots": [{
+        "startTime": "08:20",
+        "endTime": "10:00",
+        "sessions": [
+            [149]
+        ]
+     }, 
+    {
+        "startTime": "10:15",
+        "endTime": "12:15",
+        "sessions": [
+            [136]
+        ]
+    },
+    {
+        "startTime": "13:00",
+        "endTime": "15:00",
+        "sessions": [
+            [136]
+        ]
+    },
+    {
+        "startTime": "15:05",
+        "endTime": "15:45",
+        "sessions": [
+            [136]
+        ]
+    },
+    {
+        "startTime": "16:00",
+        "endTime": "16:40",
+        "sessions": [
+            [136]
+        ]
+    }
+]
+},
+{
+    "date": "2016-09-09",
+    "dateReadable": "Laboratorio 5",
+    "tracks": [{
+        "title": "Laboratorio 5"
+    }, {
+        "title": "Conference hall"
+    }, {
+        "title": "Workshops hall"
+    }],
+    "timeslots": [{
+        "startTime": "08:00",
+        "endTime": "08:15",
+        "sessions": [
+            [136]
+        ]
+    }, 
+    {
+        "startTime": "08:20",
+        "endTime": "10:00",
+        "sessions": [
+            [136]
+        ]
+    },
+    {
+        "startTime": "10:15",
+        "endTime": "12:15",
+        "sessions": [
+            [136]
+        ]
+    },
+    {
+        "startTime": "13:00",
+        "endTime": "15:00",
+        "sessions": [
+            [136]
+        ]
+    },
+    {
+        "startTime": "15:05",
+        "endTime": "15:45",
+        "sessions": [
+            [136]
+        ]
+    },
+    {
+        "startTime": "16:00",
+        "endTime": "17:00",
+        "sessions": [
+            [136]
+        ]
+     }
+]
+}
+]
