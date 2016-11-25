@@ -15,7 +15,8 @@
         "language": "English",
         "complexity": "Intermediate",
         "tags": [
-            "Android"
+            "Firebase",
+            "Analytics"
         ]
     },
     "137": {
@@ -67,7 +68,8 @@
         "language": "English",
         "complexity": "Intermediate",
         "tags": [
-            "Web"
+            "Web",
+            "Progressive Web Apps"
         ]
     },
     "141": {
@@ -80,7 +82,7 @@
         "language": "English",
         "complexity": "Intermediate",
         "tags": [
-            "Web"
+            ""
         ]
     },
     "142": {
@@ -93,7 +95,7 @@
         "language": "English",
         "complexity": "Intermediate",
         "tags": [
-            "Web"
+            "Vision API"
         ]
     },
     "143": {
@@ -106,7 +108,8 @@
         "language": "English",
         "complexity": "Intermediate",
         "tags": [
-            "Web"
+            "Java",
+            "Android"
         ]
     },
     "144": {
@@ -119,7 +122,7 @@
         "language": "English",
         "complexity": "Intermediate",
         "tags": [
-            "Web"
+            "Android"
         ]
     },
     "145": {
@@ -132,7 +135,7 @@
         "language": "English",
         "complexity": "Intermediate",
         "tags": [
-            "Web"
+            ""
         ]
     },
     "146": {
@@ -145,7 +148,7 @@
         "language": "English",
         "complexity": "Intermediate",
         "tags": [
-            "Web"
+            "UI"
         ]
     },
     "147": {
@@ -171,7 +174,8 @@
         "language": "English",
         "complexity": "Intermediate",
         "tags": [
-            "Web"
+            "Web",
+            "Angular"
         ]
     },
     "149": {
@@ -184,7 +188,148 @@
         "language": "English",
         "complexity": "Intermediate",
         "tags": [
+            ""
+        ]
+    },
+    "150": {
+        "id": 150,
+        "title": "Diagnostico, Reparación y Protección de apps con Firebase Crash Reporting y Testlab",
+        "description": "Durante el Code lab se dará un overview a las funcionalidades que brindan Firebase Crash Reporting y TestLab y posteriormente se realizara una simulación del proceso de identificar un error y solucionarlo aprovechando Firebase.\nLos pasos que se seguirán en el CodeLab son:\n- Se proporcionara el código de una application básica en android con fines de prueba que contenga un botón que que cambie una imagen de fondo en un Activity (la aplicación tendrá un error cuando corre en API 23 o mayor).\n- Se pedirá a los asistentes que corran la aplicación en sus maquinas y dispositivos (virtuales o físicos).\n- Se creara un Espresso Test para validar la funcionalidad de la aplicación .\n- Se configurara un proyecto de Firebase y se configurara la aplicación para utilizar Crash Reporting.\n- Se introducirá código que cause un error en la aplicación en una version especifica de Android.\n- Se correrá en Testlab los test creados con Espresso en la version con el error.\n- Se revisara el reporte del error en Crash Reporting.\n- Se solucionara el error identificando la fuerte en base al stack trace del reporte de Firebase.\n- Se volverá a correr los Test en la Version del error.\nPosteriormente se sacaran conclusiones y se responderán preguntas.",
+        "speakers": [
+            23
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "tags": [
+            "Firebase"
+        ]
+    },
+    "151": {
+        "id": 151,
+        "title": "Enchulame la pagina con materialize",
+        "description": "Hablar un poco de los pilares de diseño, realizar el proceso rapido de wiframes, realizar font end sobre una pagina pequeña ya construida usando materialize, y mostrar que no todo es bootstrap ",
+        "speakers": [
+            8
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "tags": [
+            "Web",
+            "Angular",
+            "UI"
+        ]
+    },
+    "152": {
+        "id": 152,
+        "title": "Apps que hablan: Speech y Natural Langueage API",
+        "description": "",
+        "speakers": [
+            3
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "tags": [
+            "Speech"
+        ]
+    },
+    "153": {
+        "id": 153,
+        "title": "Desarrolla tus proyectos de software con base de datos NoSql, MongoDB la mejor opcion?",
+        "description": "El manejo de datos en masa utilizando las bases de datos NoSql, uno de ellos MongoDB, debido a sus caracteristicas como sharding nos dara una vision del porque deberiamos utilizar las base de datos NoSql en nuestros proyectos.",
+        "speakers": [
+            28
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "tags": [
+            "NoSql",
+            "MongoDB"
+        ]
+    },
+    "154": {
+        "id": 154,
+        "title": "Virtual Environments using Kinect and Unity",
+        "description": "En esta presentación mostraremos como se puede utilizar el sensor Kinect, junto con Unity, y técnicas de Gamificación para desarrollar entornos de entrenamiento virtual 3D Game-Like, de tal manera los usuarios estén altamente motivados durante el entrenamiento, maximizando al mismo tiempo el aprendizaje y retención de los contenidos del entrenamiento. Nuestro caso de estudio es el entorno de entrenamiento de prevención y escape de incendios orientado a niños que se desarrolló para la Unidad de Bomberos Cochabamba. Realizaremos una demostración del entorno y explicaremos las ventajas a los métodos tradicionales.",
+        "speakers": [
+            29
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "tags": [
+            "Unity",
+            "Kinect"
+        ]
+    },
+    "155": {
+        "id": 155,
+        "title": "Creando una Aplicación Angular 2 Desde Cero",
+        "description": "En la actualidad existen diversas formas de empezar con el desarrollo de aplicaciones web usando Angular 2.\nEn el Code Lab propuesto, se tiene previsto dar las pautas necesarias para empezar a desarrollar con la última versión de Angular.\nSe abordará el uso de herramientas modernas que faciliten el desarrollo web en sus distintas etapas.",
+        "speakers": [
+            13
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "tags": [
+            "Web",
+            "Angular"
+        ]
+    },
+    "156": {
+        "id": 156,
+        "title": "Workshop sobre Vagrant",
+        "description": "En el Workshop se implementará un entorno de desarrollo con vagrant, la prueba se realizará con un servidor LAMP y WordPress.",
+        "speakers": [
+            15
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "tags": [
+            "Vagrant",
             "Web"
+        ]
+    },
+    "157": {
+        "id": 157,
+        "title": "Introduccion al Google Cardboard SDK usando Unity3d",
+        "description": "Se realizara un ejemplo con el Google Cardboard SDK en Unity3d y se construira un APK para Android.",
+        "speakers": [
+            30
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "tags": [
+            "Cardboard",
+            "Unity"
+        ]
+    },
+    "158": {
+        "id": 158,
+        "title": "Desarrollo de una Aplicacion web 3D Simple, usando React.js, Firebase, mobx.js y three.js.",
+        "description": "En esta charla podras aprender conceptos generales de Componentes en React, el patron de diseño Observer y la creacion de un entorno grafico que interactua con datos en firebase en tiempo real.",
+        "speakers": [
+            31
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "tags": [
+            "Web",
+            "Firebase",
+            "React.js"
+        ]
+    },
+    "159": {
+        "id": 159,
+        "title": "Angular & Firebase a New World (Vía HO)",
+        "description": "Pasaremos por las mejores features y funcionalidades para utilizar estas dos grandes tecnologias para poder hacer aplicaciones de escritorio, mobile and web.",
+        "speakers": [
+            32
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "tags": [
+            "Web",
+            "Angular",
+            "Firebase"
         ]
     }
 }

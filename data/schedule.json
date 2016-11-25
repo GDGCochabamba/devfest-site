@@ -141,39 +141,38 @@
         "startTime": "08:20",
         "endTime": "10:00",
         "sessions": [
-            [149]
+            [150]
         ]
-     }, 
+    }, 
     {
         "startTime": "10:15",
         "endTime": "12:15",
         "sessions": [
-            [136]
+            [151]
         ]
     },
     {
         "startTime": "13:00",
         "endTime": "15:00",
         "sessions": [
-            [136]
+            [152]
         ]
     },
     {
         "startTime": "15:05",
         "endTime": "15:45",
         "sessions": [
-            [136]
+            [153]
         ]
     },
     {
         "startTime": "16:00",
         "endTime": "16:40",
         "sessions": [
-            [136]
+            [154]
         ]
     }
-]
-},
+]},
 {
     "date": "2016-09-09",
     "dateReadable": "Laboratorio 5",
@@ -188,42 +187,42 @@
         "startTime": "08:00",
         "endTime": "08:15",
         "sessions": [
-            [136]
+            [132]
         ]
     }, 
     {
         "startTime": "08:20",
         "endTime": "10:00",
         "sessions": [
-            [136]
+            [155]
         ]
     },
     {
         "startTime": "10:15",
         "endTime": "12:15",
         "sessions": [
-            [136]
+            [156]
         ]
     },
     {
         "startTime": "13:00",
         "endTime": "15:00",
         "sessions": [
-            [136]
+            [157]
         ]
     },
     {
         "startTime": "15:05",
         "endTime": "15:45",
         "sessions": [
-            [136]
+            [158]
         ]
     },
     {
         "startTime": "16:00",
         "endTime": "17:00",
         "sessions": [
-            [136]
+            [159]
         ]
      }
 ]

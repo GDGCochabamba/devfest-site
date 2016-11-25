@@ -66,6 +66,14 @@
     {
       "route": "team",
       "permalink": "/team/"
+    },
+    {
+      "route": "speakers",
+      "permalink": "/speakers/"
+    },
+    {
+      "route": "schedule",
+      "permalink": "/schedule/"
     }
   ],
   "url": "https://devfest.gdg.com.bo/",
