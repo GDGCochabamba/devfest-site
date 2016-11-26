@@ -57,12 +57,12 @@
     "19": {
         "id": 19,
         "featured": true,
-        "name": "Daniel Muñoz",
-        "title": "",
+        "name": "Daniel Muñoz Duarte",
+        "title": "Desarrollo de apps en Bolivia, desafíos y oportunidades.",
         "company": "Toptal",
         "country": "Cochabamba - Bolivia",
         "photoUrl": "/images/speakers/DanielMunios.jpg",
-        "bio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.",
+        "bio": "Apasionado de la tecnología y el arte. Desarrollando Apps móviles desde hace 7 años para compañías Bolivianas y de USA.",
         "tags": [
         ]
     },
