@@ -1,61 +1,4 @@
 {
-    "27": {
-        "id": 27,
-        "featured": false,
-        "name": "Resul Caner  Yildirim",
-        "title": "User Experience Expert",
-        "company": "InnovationBox",
-        "companyLogo": "/images/logos/gdg-lviv.svg",
-        "country": "Istanbul, Turkey",
-        "photoUrl": "/images/people/resul caner_yildirim.jpg",
-        "shortBio": "Caner is a GDE on UX/UI who is also a technology geek. Mainly focused on the design and marketing...",
-        "bio": "Caner is a GDE on UX/UI who is also a technology geek. Mainly focused on the design and marketing of mobile applications. Passionate about good UX, IoT and Android. He works at InnovationBox, a design agency in Istanbul making and creating apps that users love. Caner has been an organiser of GDG Istanbul since 2013, organising, participating, and speaking at events.",
-        "tags": [
-            "Android",
-            "UX/UI",
-            "Android Wear",
-            "IoT"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "UI/UX Google Developer Expert",
-                "link": "https://developers.google.com/experts/people/resul-caner-y-ld-r-m.html"
-            },
-            {
-                "name": "GDG",
-                "description": "Google Developers Group Istanbul",
-                "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
-            }
-        ],
-        "socials": [
-            {
-                "icon": "twitter",
-                "name": "Twitter",
-                "link": "https://twitter.com/protechman"
-            },
-            {
-                "icon": "gplus",
-                "name": "Google+",
-                "link": "https://plus.google.com/+rcaneryildirim"
-            },
-            {
-                "icon": "facebook",
-                "name": "Facebook",
-                "link": "https://facebook.com/r.caner.yildirim"
-            },
-            {
-                "icon": "website",
-                "name": "Website",
-                "link": "https://dribbble.com/protechman"
-            },
-            {
-                "icon": "linkedin",
-                "name": "LinkedIn",
-                "link": "https://linkedin.com/in/protechman"
-            }
-        ]
-    },
     "7": {
         "id": 7,
         "featured": true,
@@ -63,7 +6,7 @@
         "title": "Conecta, crea y construye una app efectiva con Firebase Analytics",
         "company": " GDG Cochabamba",        
         "country": "Cochabamba - Bolivia",
-        "photoUrl": "/images/expositores/luz.jpeg",
+        "photoUrl": "/images/speakers/luz.jpeg",
         "bio": "Luz Maria es Front-end Developer, autodidacta, Women Techmaker Lead y Coorganizador en Google Developers Group en Cochabamba. Con una gran pasión por la tecnología, desarrollo de software, análisis de datos utilizando productos y servicios de Google en proyectos web y móviles. Le encanta desarrollar, viajar, practicar pilates, escribir artículos sobre tecnología, compartir conocimientos, aprender constantemente y contribuir a proyectos sociales.",
         "tags": [
             "Firebase",
@@ -77,7 +20,7 @@
         "title": "Firebase: construye tu app al estilo Google",
         "company": "Google",
         "country": "Buenos Aires - Argentina",
-        "photoUrl": "/images/people/julio_silva.jpg",
+        "photoUrl": "/images/speakers/Juan Irungaray.jpg",
         "bio": "",
         "tags": [
             "Firebase"
@@ -90,7 +33,7 @@
         "title": "Progressive Web Apps: la web contraataca - La Web salta al mundo físico",
         "company": "IT Master",
         "country": "Buenos Aires - Argentina",
-        "photoUrl": "/images/people/julio_silva.jpg",
+        "photoUrl": "/images/speakers/maximiliano.jpg",
         "bio": "",
         "tags": [
             "Progressive Web Apps",
@@ -105,7 +48,7 @@
         "title": "El Lado 'B' del Browser",
         "company": "Google",
         "country": "Buenos Aires - Argentina",
-        "photoUrl": "https://pbs.twimg.com/profile_images/565864173695799296/gnLfbOUK_400x400.jpeg",        
+        "photoUrl": "/images/speakers/leonardoPitely.jpeg",
         "bio": "Ingeniero en informática. Google Developer Expert para cloud. Hace varios años trabajando como web developer con foco en frontend, performance y optimización.",
         "tags": [
             "Web"
@@ -118,7 +61,7 @@
         "title": "",
         "company": "Toptal",
         "country": "Cochabamba - Bolivia",
-        "photoUrl": "/images/people/julio_silva\u00e1vra.jpg",
+        "photoUrl": "/images/speakers/DanielMunios.jpg",
         "bio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.",
         "tags": [
         ]
@@ -130,7 +73,7 @@
         "title": "Vision API, Otorgando vision a nuestras apps",
         "company": "",
         "country": "Cochabamba - Bolivia",
-        "photoUrl": "https://scontent.xx.fbcdn.net/t31.0-8/14691261_10209419344833314_3345453187675846396_o.jpg",
+        "photoUrl": "/images/speakers/yuriCamacho.jpg",
         "bio": "Yury Camacho estudio Ingenieria de Sistemas en la UMSS, es  apasionado por la tecnologia movil (desde Symbian C++ y J2ME) y werables, es manager del GDG Cochabamba desde el 2012, trabajo en empresas como SabMiller, Tigo Bolivia como manager de soluciones Avanzadas  actualmente trabaja como Mobile technical Lead en Globant Argentina para JPMorgan Chase & Co. Bank, Le gusta aprender, enseñar, dar charlas e investigar nuevas tecnologias. dio charlas en varios lugares de Bolivia y Argentina.",
         "tags": [
             "Vision API"
@@ -143,7 +86,7 @@
         "title": "RxJava en Android",
         "company": "GDG Android Bolivia",
         "country": "La Paz - Bolivia",
-        "photoUrl": "https://drive.google.com/file/d/0B_rBoPD836dISkgxZnBvUWpwN3M/view?usp=sharing",
+        "photoUrl": "/images/speakers/GustavoLizarraga.jpg",
         "bio": "UI/UX Designer, Front-end & Mobile Dev.Lead Organizer GDG Android Bolivia, blogger/podcaster en www.miramicodigo.com, Android&Google Fan boy, le encanta compartir conocimiento en cursos, talks y labs.",
         "tags": [
             "Android"
@@ -156,7 +99,7 @@
         "title": "Kotlin para Desarrolladores Android",
         "company": "GDG Open Lima",
         "country": "Lima - Peru",
-        "photoUrl": "https://scontent-mia1-1.xx.fbcdn.net/v/t1.0-9/14568200_320324131660537_5195219386412552345_n.jpg?oh=000044976f52af84f3b5f25e41fc99ed&oe=58C847FC",
+        "photoUrl": "/images/speakers/armandoPicon.jpg",
         "bio": "En esta charla los participantes podrán tener un acercamiento con Kotlin, un nuevo lenguaje de programación creado por JetBrains, para el desarrollo de aplicaciones móviles.",
         "tags": [
             "Android"
@@ -169,7 +112,7 @@
         "title": "BigTable - Cero Tiempo de Inactividad",
         "company": "GDG Tarija",
         "country": "Tarija - Bolivia",
-        "photoUrl": "https://drive.google.com/drive/folders/0BwCp3dbpNi08dUJRUjdvMlZsWFE?usp=sharing",
+        "photoUrl": "/images/speakers/JorgeMontellanos.jpeg",
         "bio": "Ingeniero Informático egresado de la Universidad Autónoma Juan Misael Saracho, Backend Developer, CO Founder y Community Manager GDG Tarija ACM ICPC Contestant por 4 años consecutivos representando a Tarija en la final Latinoamericano, Emprendedor, Fundador y CEO de Factorybyte empresa de desarrollo de software.",
         "tags": [
             ""
@@ -182,7 +125,7 @@
         "title": "Diseño UI: Diseñando para el mundo digital",
         "company": " GDG Cochabamba",
         "country": "Cochabamba - Bolivia",
-        "photoUrl": "https://drive.google.com/file/d/0BzWudQQ3HKoeNWdkS1B2TndpX0k/view?usp=sharing",
+        "photoUrl": "/images/speakers/carlosCollasos.jpg",
         "bio": "Diseñador UI/UX, Frontend Developer y Organizer oficial de la comunidad Google Developers Group Cochabamba, trabajando más de 5 años creando productos digitales.",
         "tags": [
             "UI"
@@ -195,7 +138,7 @@
         "title": "Desarrollando webs para e-commerce, buenas prácticas",
         "company": "GDG Cochabamba-TContacto-Island of the Moon",
         "country": "Cochabamba - Bolivia",
-        "photoUrl": "https://www.facebook.com/photo.php?fbid=10154229438927505&set=a.446694892504.215482.560397504&type=3&theater",
+        "photoUrl": "/images/speakers/carlosOlivera.jpg",
         "bio": "Emprendedor en tecnologías de información desde el año 1997, desarrollador de videojuegos, consultor en aplicaciones web y móviles. Fundador de varias empresas relacionadas a tecnología, software e internet en Bolivia y Argentina. Activista en diversas iniciativas para la promoción del desarrollo de software y la innovación en Cochabamba, como el GDG, Startup Weekend, Fuckup Nights y NASA Space Apps Challenge.",
         "tags": [
             "Web"
@@ -208,7 +151,7 @@
         "title": "Venciendo el Caos: Creando y Desplegando una Aplicacion Angular 2 en 30 Minutos",
         "company": "GDG Cochabamba AssureSoft.",
         "country": "Cochabamba - Bolivia",
-        "photoUrl": "https://goo.gl/af19re",
+        "photoUrl": "/images/speakers/luisAviles.jpg",
         "bio": "Full Stack developer centrado en el desarrollo de single-page apps y APIs RESTful. Trabaja principalmente con JavaScript. Actualmente desempeñando el rol de Lead de desarrollo en AssureSoft",
         "tags": [
             "Web",
@@ -222,7 +165,7 @@
         "title": "Como crear una app exitosa sin hacer una línea de código",
         "company": "JalaSoft  - GDG Cochabamba - Co-Founder Trink Delivery",
         "country": "Cochabamba - Bolivia",
-        "photoUrl": "https://drive.google.com/file/d/0B2xckfuU3G99YWYtU3c0cWJjaG8/view?usp=sharing",
+        "photoUrl": "/images/speakers/AndresZeballos.jpg",
         "bio": "Ingeniero de Sistemas, Universidad Católica Boliviana. Co-Founder Trink Delivery, Software Developer Jalasoft. Full stack and mobile developer, UI/UX designer, researcher and entrepeneur. Miembro del GDG Cochabamba. Realizó un postgrado en Desarrollo de Aplicaciones Móviles (Android, iOS y Multiplataforma). Fue parte del equipo de Investigación Aplicada de la Fundación Jala y del desarrollo de la aplicación cloud Silas y sus respectivas aplicaciones móviles en iOS y Android. Tiene investigaciones referidas a la evaluación de usabilidad de aplicaciones, en su tesis de grado propone un nuevo método de evaluación y estimación del nivel de usabilidad. Apasionado por las tecnologías de Google, el software libre, la investigación de nuevas tecnologías, el desarrollo de aplicaciones web y móviles, UI/UX, usabilidad y últimamente videojuegos y realidad virtual.",
         "tags": [
         ]
@@ -234,7 +177,7 @@
         "title": "Diagnostico, Reparación y Protección de apps con Firebase Crash Reporting y Testlab",
         "company": "GDG Cochabamba - JalaSoft",
         "country": "Cochabamba - Bolivia",
-        "photoUrl": "https://drive.google.com/open?id=0B6u2uySSML2yeFBUV3lwZ1h5LXM",
+        "photoUrl": "/images/speakers/DanielAsin.jpg",
         "bio": "Developer Ingeniero de Sistemas, Staff Developer en Jalasoft. Durante día trabajo como Salesforce Developer. Durante la noche experimento con Android y NodeJS.",
         "tags": [
             "Firebase"
@@ -247,7 +190,7 @@
         "title": "Enchulame la pagina con Materialize",
         "company": "GDG Cochabamba - SCESI",
         "country": "Cochabamba - Bolivia",
-        "photoUrl": "https://drive.google.com/open?id=0B6u2uySSML2yeFBUV3lwZ1h5LXM",
+        "photoUrl": "/images/speakers/irvinCossio.jpg",
         "bio": "Estudiante, Freelancer, Curso de apoyo Web en la scesi (sociedad cientifica de estudiantes de sistemas e informatica). lenguajes (c++, c#, java, php, ruby, python,haskell, javascript), frameworks(ruby on rails, symfony), diseño de interfaces",
         "tags": [
             "UI",
@@ -261,7 +204,7 @@
         "title": "Workshop sobre Vagrant",
         "company": "",
         "country": "Cochabamba - Bolivia",
-        "photoUrl": "https://drive.google.com/open?id=0B6u2uySSML2yeFBUV3lwZ1h5LXM",
+        "photoUrl": "/images/speakers/aquilardocaricari.png",
         "bio": "Desarrollador web, emprendedor empedernido creador de marcas, conceptos, productos o servicios empresariales con base tecnológica (startups).",
         "tags": [
             "Vagrant"
@@ -274,7 +217,7 @@
         "title": "Desarrolla tus proyectos de software con base de datos NoSql, MongoDB la mejor opcion?",
         "company": "GDG Cochabamba - WTM Cochabamba",
         "country": "Cochabamba - Bolivia",
-        "photoUrl": "https://drive.google.com/open?id=0B6u2uySSML2yeFBUV3lwZ1h5LXM",
+        "photoUrl": "/images/speakers/vaniaCatorceno.jpg",
         "bio": "Estudiante Egresada de la Universidad Mayor de San Simón en Ingeniería de Sistemas, actualmente desarrollando su tesis en Fundación Jala. A principios de año se hizo integrante de la comunidad GDG y WTM de Cochabamba, participando en varios eventos como organizadora. Le gusta investigar el mundo de la informática, teniendo conocimiento tanto backend y frontend, actualmente trabajando en nodeJs, Rest API y MongoDB.",
         "tags": [
             "NoSql"
@@ -287,7 +230,7 @@
         "title": "Virtual Environments using Kinect and Unity",
         "company": "Zekiri - GDG Cochabamba",
         "country": "Cochabamba - Bolivia",
-        "photoUrl": "https://drive.google.com/open?id=0B6u2uySSML2yeFBUV3lwZ1h5LXM",
+        "photoUrl": "/images/speakers/martinArispe.jpg",
         "bio": "Ingeniero de software, Participo en varios eventos como ser NASA Space Apps Challenge, Cups, Innova Bolivia, Expositor en la Feria Internacional de Cochabamba en 2015, TechZone 2016, Docente en desarrollo web para el programa Global Academy de los Global shapers con el apoyo de JalaSoft, miembro del GDG Cochabamba. Actualmente ingeniero de software en Zekiri. Experiencia de más de 1 año en desarrollo de entornos virtuales con Unity y Kinect.",
         "tags": [
             "Unity",
@@ -301,7 +244,7 @@
         "title": "Introduccion al Google Cardboard SDK usando Unity3d",
         "company": "JalaSoft",
         "country": "Cochabamba - Bolivia",
-        "photoUrl": "https://drive.google.com/open?id=0B6u2uySSML2yeFBUV3lwZ1h5LXM",
+        "photoUrl": "/images/speakers/juanQuispe.jpg",
         "bio": "Estudiante de Ing. Informatica de la UMSS, Desarrollador de software en Jalasoft, Desarrollador de software en el programa Research de Fundación Jala, \nTermine el programa Softure en Fundación Jala, Participe como instructor en los cursos de Unity3D, Fundación Jala, 2014 y 2015.",
         "tags": [
             "Unity",
@@ -315,7 +258,7 @@
         "title": "Desarrollo de una Aplicacion web 3D Simple, usando React.js, Firebase, mobx.js y three.js.",
         "company": "GDG Cochabamba",
         "country": "Cochabamba - Bolivia",
-        "photoUrl": "https://drive.google.com/open?id=0B6u2uySSML2yeFBUV3lwZ1h5LXM",
+        "photoUrl": "/images/speakers/ivo_rojas.jpg",
         "bio": "Soy Ingeniero en informática, estoy especializado en desarrollo frontend, tomo desiciones de Intefaz y experiencia de usuario y me encanta el 3D y todo lo que involucra.",
         "tags": [
             "React.js",
@@ -329,7 +272,7 @@
         "title": "Angular & Firebase a New World",
         "company": "Google",
         "country": "Buenos Aires - Argentina",
-        "photoUrl": "https://drive.google.com/open?id=0B6u2uySSML2yeFBUV3lwZ1h5LXM",
+        "photoUrl": "/images/speakers/jorgaCano.jpg",
         "bio": "Después de más de 9 años desarrollando, Jorge es un full stack developer avocado a las tecnologías en javascript. Hoy en dia Jorge es Director de “departamento de nuevas tecnologías” en el cual prueba y decide qué tecnologías utilizar para brindar el mejor servicio performance y seguridad con Angular / Angular 2 / Firebase y otras tecnologías de punta… Profesor de varios cursos relacionados a javascript, Google Developer Expert en tecnologías web y Angular Developer Expert , speaker internacional, y escritor de artículos técnicos.",
         "tags": [
             "Angular",
