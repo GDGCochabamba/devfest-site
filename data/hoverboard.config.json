@@ -36,9 +36,8 @@
   "googleMapApiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw",
   "organizer": {
     "name": "GDG Cochabamba",
-    "twitter": "gdglviv",
-    "blog": "https://medium.com/gdg-lviv",
-    "url": "http://lviv.gdg.org.ua/"
+    "twitter": "GDGCochabamba",
+    "url": "http://gdg.com.bo/"
   },
   "webapp": {
     "shortName": "DevFest",

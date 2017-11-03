@@ -5,7 +5,7 @@
   "dates": "25/11/2017",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
   "share": "Comparte",
-  "followOur": "Sigue nuestro",
+  "followOur": "",  
   "followUs": "Síguenos",
   "emailUs": "Escríbenos",
   "partnershipResources": "Partnership Resources",
@@ -14,7 +14,7 @@
   "signIn": "Ingresar",
   "signOut": "Salir",
   "footer": {
-    "blog": "Blog"
+    "blog": ""
   },
   "footerRelBlock": [
     {
@@ -221,9 +221,9 @@
     "blocks": [
       {
         "title": "Organizadores",
-        "description": "El <a href='http://gdg.com.bo' target='_blank'>GDG Cochabamba</a> cuenta actualmente con X miembros activos, orgullosos de poder organizar el GDG DevFest Cochabamba por 4to.(?) año consecutivo",
+        "description": "El <a href='http://gdg.com.bo' target='_blank'>GDG Cochabamba</a> cuenta actualmente con X miembros activos, orgullosos de poder organizar el GDG DevFest Cochabamba por 2do. año consecutivo y el 4to. desde 2012.",
         "callToAction": {
-          "label": "Ir a gdg.com.bo",
+          "label": "Conoce al equipo",
           "link": "/team"
         }
       },
