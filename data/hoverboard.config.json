@@ -49,7 +49,7 @@
     {
       "route": "home",
       "permalink": "/",
-      "title": "Home"
+      "title": "Inicio"
     },
     {
       "route": "schedule",
