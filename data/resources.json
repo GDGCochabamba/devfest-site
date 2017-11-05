@@ -109,13 +109,13 @@
         "label": "Asistentes",
         "number": "500"
       },
-      "days": {
-        "label": "Días",
-        "number": "2"
+      "labs": {
+        "label": "Laboratorios",
+        "number": "6"
       },
       "sessions": {
         "label": "Charlas",
-        "number": "50"
+        "number": "14"
       },
       "tracks": {
         "label": "Ambientes",
