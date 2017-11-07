@@ -53,7 +53,7 @@
     },
     {
       "route": "schedule",
-      "permalink": "/schedule/",
+      "permalink": "/schedule/2017-11-25",
       "title": "Cronograma"
     },
     {
@@ -69,7 +69,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "El evento más grande de tecnología Google en Cochabamba, organizado por la comunidad GDG! Android, Web, Angular y Cloud y mucho más, con la participación de expertos y profesionales!",
+      "description": "El evento más grande de tecnologías Google en Cochabamba.\n Organizado por la comunidad GDG Cochabamba!",
       "background": {
         "color": "#673ab7",
         "image": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-2285e.appspot.com/o/images%2Fwebassets%2Fhome.jpg?alt=media&token=bc33c528-0280-4a91-9e95-32e9f043a0c9"
