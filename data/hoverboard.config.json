@@ -109,9 +109,9 @@
   },
   "location": {
     "short": "Cochabamba, Bolivia",
-    "address": "Av. Oquendo esq. Jordán Cochabamba, Bolivia",
+    "address": "Calle Sucre y Parque la Torre Cochabamba, Bolivia",
     "pointer": {
-      "latitude": -17.392715,
+      "latitude": -17.3927150,
       "longitude": -66.145590,
       "zoom": 17
     },
