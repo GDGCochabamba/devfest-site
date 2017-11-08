@@ -34,8 +34,7 @@
     "uglify-es": "^3.0.28"
   },
   "engines": {
-    "node": ">=4.0",
-    "yarn": ">=1.0"
+    "node": ">=8.0"
   },
   "private": true,
   "dependencies": {
