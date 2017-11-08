@@ -35,7 +35,7 @@
   },
   "engines": {
     "node": ">=8.0",
-    "npm": ">5.5.1"
+    "npm": ">5.0"
   },
   "private": true,
   "dependencies": {
