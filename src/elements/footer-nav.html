@@ -7,8 +7,7 @@
     <style is="custom-style" include="shared-styles flex flex-alignment"></style>
 
     <style>
-
-      :host  {
+      :host {
         margin: 0 20px;
       }
 
@@ -68,18 +67,15 @@
     <div class="nav-inline" layout flex>
 
       <a href="{$ organizer.url $}" target="_blank" rel="noopener noreferrer">
-        <plastic-image
-          class="footer-logo"
-          srcset="../../images/organizer-logo.svg"
-          sizing="contain"
-          alt="{$ organizer.name $}"
-          lazy-load
-        ></plastic-image>
+        <plastic-image class="footer-logo" srcset="../../images/organizer-logo.svg" sizing="contain" alt="{$ organizer.name $}" lazy-load></plastic-image>
       </a>
 
+
       <div class="copyright">
-        &copy; 2017 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project
-        Hoverboard</a> &middot; <a class="cod" href="/cod" target="_blank" rel="noopener noreferrer">{$ codeOfConduct $}</a>
+        &copy; 2017 Basado en
+        <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project Hoverboard
+        </a>
+        <!-- <a class="cod" href="/cod" target="_blank" rel="noopener noreferrer">{$ codeOfConduct $}</a> -->
 
       </div>
     </div>
@@ -97,4 +93,3 @@
 
   </script>
 </dom-module>
-
