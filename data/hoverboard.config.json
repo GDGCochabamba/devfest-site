@@ -182,11 +182,6 @@
         "name": "facebook",
         "label": "Registrarse con Facebook",
         "url": "https://www.facebook.com"
-      },
-      {
-        "name": "twitter",
-        "label": "Registrarse con Twitter",
-        "url": "https://twitter.com"
       }
     ],
     "allowedProvidersUrl": [
