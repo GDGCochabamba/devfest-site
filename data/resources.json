@@ -5,11 +5,9 @@
   "dates": "25/11/2017",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
   "share": "Comparte",
-  "followOur": "Sigue nuestro",
   "followUs": "Síguenos",
   "emailUs": "Escríbenos",
   "partnershipResources": "Partnership Resources",
-  "eventResources": "Event Resources",
   "buyTicket": "Comprar entrada",
   "signIn": "Ingresar",
   "signOut": "Salir",
@@ -31,8 +29,8 @@
           "newTab": true
         },
         {
-          "name": "Meet the Team",
-          "url": "https://devfest.gdg.org.ua/team/",
+          "name": "Conoce al equipo",
+          "url": "/team",
           "newTab": true
         }
       ]
@@ -56,40 +54,10 @@
           "newTab": true
         }
       ]
-    },
-    {
-      "title": "Event Resources",
-      "links": [
-        {
-          "name": "Partnership Proposition",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
-          "newTab": true
-        },
-        {
-          "name": "Info Partnership Proposition",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
-          "newTab": true
-        },
-        {
-          "name": "Media Kit",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
-          "newTab": true
-        },
-        {
-          "name": "Call for Papers",
-          "url": "https://drive.google.com/open?id=10tPuu_7ASM8C70SotqRqIW5Uzos9BzALilMMQPg_JvA",
-          "newTab": true
-        },
-        {
-          "name": "FAQs",
-          "url": "/faq/",
-          "newTab": false
-        }
-      ]
     }
   ],
   "subscribeNote": "Cero spam, ¡Sólo las mejores noticias y eventos!",
-  "codeOfConduct": "Code of Conduct",
+  "codeOfConduct": "Código de conducta",
   "aboutBlock": {
     "title": "Esto es lo que necesitas saber!",
     "callToAction": {
@@ -124,7 +92,7 @@
     "soldOut": "Agotado"
   },
   "partnersBlock": {
-    "title": "Partners",
+    "title": "Patrocinadores",
     "button": "Se un patrocinador"
   },
   "featuredVideos": {
@@ -157,11 +125,11 @@
     }
   },
   "galleryBlock": {
-    "title": "#dfua16 highlights",
-    "description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "title": "#DevFestCocha16 Sorprendente",
+    "description": "El evento de este año fue preparado con muchas sorpresas! Revisa algunas fotos del evento, las charlas y los laboratorios.",
     "callToAction": {
       "label": "Ver todas",
-      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+      "link": "https://goo.gl/u3Np4E"
     }
   },
   "mapBlock": {
@@ -184,7 +152,7 @@
     "generalError": "Surgió un error. Por favor, intenta más tarde."
   },
   "team": {
-    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT."
+    "description": "Google es conocido a nivel mundial. Todos andan 'googleando', guiandose con 'maps' y comunicandose mediante 'gmail'. Para los usuarios simples, son solamente servicios usables a diario, pero no para nosotros. Como desarrolladores vemos mucho más: APIs, problemas de escalabilidad, algoritmos y estructuras complejas.<br> De eso trata el GDG.<br><br> [Google Developers Group (GDG) Cochabamba](http://gdg.com.bo/) - Es una comunidad geek abierta y voluntaria, apasionada por la tecnología en la que se trabaja con distintos proyectos,<br> se comparten experiencias y se aprende sobre nuevas tecnologías de Google constantemente.<br><br> Nuestra meta es crear un espacio para conectar a los mejores expertos de la industria con el público cochabambino. De esta manera, impulsamos el crecimiento del conocimiento y la pasión por la tecnología en todos sus ámbitos."
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
@@ -199,13 +167,13 @@
     "sessions": "Charlas"
   },
   "notifications": {
-    "default": "Enable notifications",
-    "enabled": "We will miss you but you can unsubscribe anytime",
-    "blocked": "We can't send you notifications right now. Please enable notifications in your browser",
-    "subscribe": "Subscribe",
-    "unsubscribe": "Unsubscribe",
+    "default": "Activar notificaciones",
+    "enabled": "Te extrañaremos, pero puedes cancelar tu subscripción en cualquier momento.",
+    "blocked": "No podemos enviarte notificaciones por ahora, por favor activa las notificaciones en tu navegador.",
+    "subscribe": "Subscribirse",
+    "unsubscribe": "Cancelar subscripción",
     "enable": {
-      "label": "Enable",
+      "label": "Activar",
       "link": "https://pushassist.com/knowledgebase/how-to-enable-or-disable-push-notifications-on-chrome-firefox-safari-b/"
     },
     "toast": {
