@@ -244,7 +244,6 @@
         if (active && speakers && Object.keys(speakers).length) {
           requestAnimationFrame(() => {
               if (id && speakers[id]) {
-                debugger
                 dialogsActions.openDialog(DIALOGS.SPEAKER, speakers[id]);
               } else if (this.isDialogOpened) {
                 dialogsActions.closeDialog(DIALOGS.SPEAKER);

@@ -136,11 +136,6 @@
         }
       }
 
-      constructor() {
-        super();
-        this.addEventListener('iron-overlay-canceled', this._close);
-      }
-
       static get observers() {
         return [
           '_handleClose(opened, speaker)'
