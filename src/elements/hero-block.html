@@ -68,6 +68,11 @@
         margin-top: 8px;
       }
 
+      .meetup-icon {
+        width: 32px;
+        margin-right: 10px;
+      }
+
       .info-item:not(:last-of-type) {
         margin-right: 8px;
       }
@@ -118,11 +123,19 @@
               </div>
             </div>
             <p class="hero-description highlight-font">[[hero.description]]</p>
+
+            <!-- <div class="info-items highlight-font" layout horizontal wrap>
+              <a href="{$ registerBlock.callToAction.register.url $}" target="_blank">
+                <iron-icon icon="hoverboard:meetup" class="meetup-icon"></iron-icon>
+                {$ registerLabel $}
+              </a>
+            </div> -->
           </div>
           <div class="hero-content" route="default">
             <div class="hero-title highlight-font">[[hero.title]]</div>
             <p class="hero-description">[[hero.description]]</p>
           </div>
+
         </iron-pages>
       </div>
     </app-toolbar>

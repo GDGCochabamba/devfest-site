@@ -11,6 +11,7 @@
   "buyTicket": "Comprar entrada",
   "signIn": "Ingresar",
   "signOut": "Salir",
+  "registerLabel": "registrate",
   "footer": {
     "blog": ""
   },
@@ -58,6 +59,18 @@
   ],
   "subscribeNote": "Cero spam, ¡Sólo las mejores noticias y eventos!",
   "codeOfConduct": "Código de conducta",
+  "registerBlock": {
+    "title": "¡Inscribete!",
+    "content": "Para inscribirte sólo tienes que confirmar en <a href='meetup.com' target='_blank'>Meetup.com</a> ¡es totalmente gratis!",
+    "meetupLogo": "../images/logos/meetup.svg",
+    "callToAction": {
+      "register": {
+        "label": "Inscribirse en meetup",
+        "url": "https://goo.gl/LKifbm"
+      }
+    }
+
+  },
   "aboutBlock": {
     "title": "Esto es lo que necesitas saber!",
     "callToAction": {
