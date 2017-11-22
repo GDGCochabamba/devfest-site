@@ -43,6 +43,7 @@ function updateSpeakersSessions(speakersRaw, speakerIds, session) {
 }
 
 self.addEventListener('message', ({ data }) => {
+  debugger
   const speakersRaw = data.speakers;
   const sessionsRaw = data.sessions;
   const scheduleRaw = data.schedule;
@@ -63,16 +64,19 @@ self.addEventListener('message', ({ data }) => {
       const timeslot = day.timeslots[timeslotsIndex];
       let innnerSessions = [];
 
+      if (!timeslot.sessions) { timeslot.sessions = [] }
       for (let sessionIndex = 0, sessionsLen = timeslot.sessions.length; sessionIndex < sessionsLen; sessionIndex++) {
         let subsessions = [];
 
-        for (let subSessionIndex = 0, subSessionsLen = timeslot.sessions[sessionIndex].length; subSessionIndex < subSessionsLen; subSessionIndex++) {
-          const sessionId = timeslot.sessions[sessionIndex][subSessionIndex];
+        if (!timeslot.sessions[sessionIndex]) { continue; }
+        const sessionItems = timeslot.sessions[sessionIndex].items ? timeslot.sessions[sessionIndex].items : timeslot.sessions[sessionIndex]
+        for (let subSessionIndex = 0, subSessionsLen = sessionItems.length; subSessionIndex < subSessionsLen; subSessionIndex++) {
+          const sessionId = sessionItems[subSessionIndex];
           const subsession = sessionsRaw[sessionId];
           const mainTag = subsession.tags ? subsession.tags[0] : 'General';
           const endTimeRaw = timeslot.sessions[sessionIndex].extend ? day.timeslots[timeslotsIndex + timeslot.sessions[sessionIndex].extend - 1].endTime : timeslot.endTime;
           const endTime = subSessionsLen > 1 ? getEndTime(dayKey, timeslot.startTime, endTimeRaw, subSessionsLen, subSessionIndex + 1) : endTimeRaw;
-          const startTime = subSessionsLen > 1 && subSessionIndex > 0 ? sessions[timeslot.sessions[sessionIndex].items[subSessionIndex - 1]].endTime : timeslot.startTime;
+          const startTime = subSessionsLen > 1 && subSessionIndex > 0 ? sessions[sessionItems[subSessionIndex - 1]].endTime : timeslot.startTime;
 
           if (subsession.tags) {
             dayTags = [...new Set([...dayTags, ...subsession.tags])];
