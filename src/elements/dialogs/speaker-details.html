@@ -36,7 +36,7 @@
       }
 
       .action {
-        color: var(--secondary-text-color);
+        color: var(--default-primary-color);
       }
 
     </style>
@@ -63,8 +63,8 @@
       </app-header>
 
       <div class="dialog-container content">
-        <h3 class="meta-info">[[speaker.country]]</h3>
         <h3 class="meta-info">[[speaker.title]], [[speaker.company]]</h3>
+        <h4 class="meta-info">[[speaker.country]]</h4>
         <h3 class="meta-info" hidden$="[[isEmpty(speaker.badges)]]">
           <template is="dom-repeat" items="[[speaker.badges]]" as="badge">
             <a

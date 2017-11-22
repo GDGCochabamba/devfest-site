@@ -109,12 +109,10 @@
       }
 
       .social-icon {
-        --paper-icon-button: {
-          padding: 6px;
-          width: 32px;
-          height: 32px;
-        };
-        color: var(--secondary-text-color);
+        color: var(--default-primary-color);
+        padding: 6px;
+        width: 32px;
+        height: 32px;
       }
 
       @media (min-width: 640px) {
@@ -176,7 +174,7 @@
 
           <plastic-image
             class="company-logo"
-            srcset="[[speaker.companyLogoUrl]]"
+            srcset="[[speaker.companyLogo]]"
             sizing="contain"
             lazy-load preload fade
           ></plastic-image>

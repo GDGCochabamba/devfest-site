@@ -22,7 +22,7 @@
 
       .session {
         height: 100%;
-        color: var(--default-primary-color);
+        color: var(--dark-primary-color);
         overflow: hidden;
       }
 
@@ -79,6 +79,11 @@
         line-height: 1.2;
       }
 
+      .session-track {
+        font-size: 16px;
+        color: var(--primary-background-color);
+      }
+
       .session-meta {
         margin: 0;
         padding: 0;
@@ -105,13 +110,14 @@
       }
 
       .speaker-name {
+        font-size: 14px;
         margin-bottom: 4px;
-        line-height: 1.2;
+        line-height: 0.7;
       }
 
       .speaker-title {
         font-size: 12px;
-        line-height: 1;
+        line-height: 0.9;
       }
 
       @media (min-width: 640px) {
@@ -137,6 +143,7 @@
       <div class="session-header" layout horizontal justified>
         <div flex>
           <h3 class="session-title">[[session.title]]</h3>
+          <h4 class="session-track">[[session.track.title]]</h4>
         </div>
         <span class="language">[[slice(session.language, 2)]]</span>
       </div>
