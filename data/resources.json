@@ -83,7 +83,7 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Asistentes",
-        "number": "500"
+        "number": "200+"
       },
       "labs": {
         "label": "Laboratorios",
@@ -91,7 +91,7 @@
       },
       "sessions": {
         "label": "Charlas",
-        "number": "12"
+        "number": "14"
       },
       "tracks": {
         "label": "Ambientes",
