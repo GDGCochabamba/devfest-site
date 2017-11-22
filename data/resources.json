@@ -168,7 +168,7 @@
     "description": "Google es conocido a nivel mundial. Todos andan 'googleando', guiandose con 'maps' y comunicandose mediante 'gmail'. Para los usuarios simples, son solamente servicios usables a diario, pero no para nosotros. Como desarrolladores vemos mucho más: APIs, problemas de escalabilidad, algoritmos y estructuras complejas.<br> De eso trata el GDG.<br><br> [Google Developers Group (GDG) Cochabamba](http://gdg.com.bo/) - Es una comunidad geek abierta y voluntaria, apasionada por la tecnología en la que se trabaja con distintos proyectos,<br> se comparten experiencias y se aprende sobre nuevas tecnologías de Google constantemente.<br><br> Nuestra meta es crear un espacio para conectar a los mejores expertos de la industria con el público cochabambino. De esta manera, impulsamos el crecimiento del conocimiento y la pasión por la tecnología en todos sus ámbitos."
   },
   "schedule": {
-    "saveSessionsSignedOut": "Sign in to save sessions"
+    "saveSessionsSignedOut": "Inicia sesión para guardar tus charlas"
   },
   "sessionDetails": {
     "contentLevel": "Content level",
