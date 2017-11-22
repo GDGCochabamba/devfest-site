@@ -66,39 +66,32 @@
     "home": {
       "description": "El evento más grande de tecnologías Google en Cochabamba.\n Organizado por la comunidad GDG Cochabamba!",
       "background": {
-        "color": "#673ab7",
+        "color": "#673AB7",
         "image": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-2285e.appspot.com/o/images%2Fwebassets%2Fhome.jpg?alt=media&token=bc33c528-0280-4a91-9e95-32e9f043a0c9"
       },
       "fontColor": "#FFF"
     },
     "speakers": {
       "title": "Speakers",
-      "description": "Miembros del GDG Cochabamba, miembros de otros GDGs, Socios e invitados especiales.",
+      "description": "Invitados especiales y miembros del GDG Cochabamba.",
       "background": {
-        "color": "#FFF"
+        "color": "#F6087F"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     },
     "schedule": {
       "title": "Cronograma",
       "background": {
-        "color": "#fff"
+        "color": "#F6087F"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     },
     "team": {
       "title": "Equipo",
       "background": {
-        "color": "#fff"
+        "color": "#F6087F"
       },
-      "fontColor": "#424242"
-    },
-    "faq": {
-      "title": "FAQs",
-      "background": {
-        "color": "#fff"
-      },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     }
   },
   "location": {

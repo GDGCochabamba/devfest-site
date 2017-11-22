@@ -23,9 +23,14 @@
       .team-icon {
         --iron-icon-height: 160px;
         --iron-icon-width: 160px;
-        --iron-icon-fill-color: var(--default-primary-color);
+        --iron-icon-fill-color: var(--dark-primary-color);
         max-width: 50%;
       }
+
+			.title {
+				width: 300px;
+				color: var(--dark-primary-color);
+			}
 
       .description {
         color: var(--secondary-text-color);
@@ -44,7 +49,7 @@
       <div class="description-block" flex>
         {% for block in aboutOrganizerBlock.blocks %}
         <div class="block">
-          <h2>{$ block.title $}</h2>
+          <h2 class="title">{$ block.title $}</h2>
           <marked-element class="description" markdown="{$ block.description $}">
             <div slot="markdown-html"></div>
           </marked-element>
