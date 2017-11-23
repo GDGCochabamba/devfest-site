@@ -90,7 +90,8 @@
         padding-bottom: 40px;
       }
 
-      .bookmark-session {
+      .bookmark-session,
+      .codelab-session {
         color: var(--secondary-text-color);
       }
 
@@ -183,9 +184,8 @@
       <div class="session-content" flex layout horizontal start hidden$="[[session.sponsor]]">
         <iron-icon
           hidden$="[[!session.codelab]]"
-          class="bookmark-session"
+          class="codelab-session"
           icon="hoverboard:codelab"
-          on-tap="_toggleFeaturedSession"
         ></iron-icon>
         <div class="codelab-label" hidden$="[[!session.codelab]]">
           <div hidden$="[[!session.complexity]]">Codelab -&nbsp;</div>
