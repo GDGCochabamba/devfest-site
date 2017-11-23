@@ -26,6 +26,23 @@
         overflow: hidden;
       }
 
+      .session.sponsor {
+        background-color: var(--primary-background-color);
+        color: #fff;
+      }
+
+      .session.sponsor:hover {
+        background-color: var(--primary-background-color);
+      }
+
+      .session.sponsor .session-header {
+        padding-bottom: 16px;
+      }
+
+      .session.sponsor .session-title {
+        font-size: 24px;
+      }
+
       .session:hover {
         background-color: var(--additional-background-color);
       }
@@ -47,7 +64,7 @@
       }
 
       .session-header {
-        padding-bottom: 8px;
+        padding-bottom: 3px;
       }
 
       .language {
@@ -57,7 +74,7 @@
         color: var(--secondary-text-color);
       }
 
-      .session-content {
+      .session-content{
         padding-top: 0;
         padding-bottom: 40px;
       }
@@ -84,11 +101,16 @@
         color: var(--primary-background-color);
       }
 
-      .session-meta {
+      .session-meta,
+      .codelab-label {
         margin: 0;
         padding: 0;
         font-size: 12px;
         color: var(--secondary-text-color);
+      }
+
+      .codelab-label {
+        margin-left: 6px;
       }
 
       .session-footer {
@@ -129,7 +151,7 @@
     </style>
 
     <a
-      class="session"
+      class$="[[cssClass]]"
       href$="/schedule/[[dayName]]?sessionId=[[session.id]]"
       featured$="[[isFeatured]]"
       layout vertical
@@ -147,11 +169,20 @@
         </div>
         <span class="language">[[slice(session.language, 2)]]</span>
       </div>
-
-      <div class="session-content" flex layout horizontal justified>
+      <div class="session-content" flex layout horizontal start hidden$="[[session.sponsor]]">
+        <iron-icon
+          hidden$="[[!session.codelab]]"
+          class="bookmark-session"
+          icon="hoverboard:codelab"
+          on-tap="_toggleFeaturedSession"
+        ></iron-icon>
+        <div class="codelab-label" hidden$="[[!session.codelab]]">
+          <div hidden$="[[!session.complexity]]">Codelab -&nbsp;</div>
+        </div>
         <div class="session-meta">
           <div hidden$="[[!session.complexity]]">[[session.complexity]]</div>
         </div>
+        <div flex></div>
         <iron-icon
           class="bookmark-session"
           icon="hoverboard:[[_getFeaturedSessionIcon(featuredSessions, session.id)]]"
@@ -159,7 +190,8 @@
         ></iron-icon>
       </div>
 
-      <div class="session-footer">
+
+      <div class="session-footer" hidden$="[[session.sponsor]]">
         <div layout horizontal justified center-aligned>
           <div class="session-meta" flex>
             <span
@@ -217,6 +249,10 @@
           isFeatured: {
             type: String,
             computed: '_isFeatured(featuredSessions, session.id)'
+          },
+          cssClass: {
+            type: String,
+            computed: '_cssClass(session.sponsor)'
           }
         }
       }
@@ -231,6 +267,10 @@
       _isFeatured(featuredSessions, sessionId) {
         if (!featuredSessions || !sessionId) return false;
         return featuredSessions[sessionId];
+      }
+
+      _cssClass(isSponsor) {
+        return `session ${isSponsor ? 'sponsor' : ''}`
       }
 
       _getEnding(number) {
