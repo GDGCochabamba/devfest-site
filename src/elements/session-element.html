@@ -43,6 +43,10 @@
         font-size: 24px;
       }
 
+      .session.sponsor .session-track {
+        color: #fff;
+      }
+
       .session:hover {
         background-color: var(--additional-background-color);
       }
@@ -165,7 +169,7 @@
       <div class="session-header" layout horizontal justified>
         <div flex>
           <h3 class="session-title">[[session.title]]</h3>
-          <h4 class="session-track" hidden$="[[session.sponsor]]">[[session.track.title]]</h4>
+          <h4 class="session-track">[[session.track.title]]</h4>
         </div>
         <span class="language">[[slice(session.language, 2)]]</span>
       </div>
