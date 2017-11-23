@@ -14,6 +14,7 @@ function getEndTime(date, startTime, endTime, totalNumber, number) {
 }
 
 function getDuration(date, startTime, endTime) {
+  debugger
   let difference = getTimeDifference(date, startTime, endTime);
   const hh = Math.floor(difference / 1000 / 60 / 60);
   difference -= hh * 1000 * 60 * 60;
@@ -75,7 +76,7 @@ self.addEventListener('message', ({ data }) => {
           const subsession = sessionsRaw[sessionId];
           const mainTag = subsession.tags ? subsession.tags[0] : 'General';
           const endTimeRaw = timeslot.sessions[sessionIndex].extend ? day.timeslots[timeslotsIndex + timeslot.sessions[sessionIndex].extend - 1].endTime : timeslot.endTime;
-          const endTime = subSessionsLen > 1 ? getEndTime(dayKey, timeslot.startTime, endTimeRaw, subSessionsLen, subSessionIndex + 1) : endTimeRaw;
+          const endTime = subSessionsLen > 1 ? getEndTime(day.dateReadable, timeslot.startTime, endTimeRaw, subSessionsLen, subSessionIndex + 1) : endTimeRaw;
           const startTime = subSessionsLen > 1 && subSessionIndex > 0 ? sessions[sessionItems[subSessionIndex - 1]].endTime : timeslot.startTime;
 
           if (subsession.tags) {
@@ -90,7 +91,7 @@ self.addEventListener('message', ({ data }) => {
             track: subsession.track || day.tracks[sessionIndex],
             startTime,
             endTime,
-            duration: getDuration(dayKey, startTime, endTime),
+            duration: getDuration(day.dateReadable, startTime, endTime),
             dateReadable: day.dateReadable,
             speakers: subsession.speakers ? subsession.speakers.map(speakerId => Object.assign({
               id: speakerId
