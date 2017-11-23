@@ -37,7 +37,7 @@
             </div>
 
             <div class="float-button">
-              <paper-fab
+              <paper-fab hidden$="[[session.sponsor]]"
                 icon="hoverboard:[[_getFeaturedSessionIcon(featuredSessions, session.id)]]"
                 hidden$="[[!viewport.isLaptopPlus]]"
                 on-tap="_toggleFeaturedSession"
