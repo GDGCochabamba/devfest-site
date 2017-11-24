@@ -148,7 +148,8 @@
 
       _handleClose(opened, speaker) {
         if (!opened && speaker && Object.keys(speaker).length) {
-          history.back();
+          document.body.style.overflow = '';
+          history.pushState({}, null, '/speakers/');
         }
       }
 
