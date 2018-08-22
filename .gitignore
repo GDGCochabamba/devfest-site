@@ -3,11 +3,12 @@ dist/
 node_modules/
 build/
 functions/lib/
+appengine/dist/
+.firebase/
 .idea/
 .temp/
 .vscode/
 .firebaserc
-/appengine/dist/
 serviceAccount.json
 *.log
 npm-debug.log*
