@@ -183,7 +183,7 @@
     }
   },
   "mapBlock": {
-    "title": "Location"
+    "title": "Ubicación"
   },
   "team": {
     "description": "El [GDG Cochabamba](https://gdg.com.bo) se fundó en 2011 y lleva a la fecha más de 100 eventos, difundiendo las novedades y buenas prácticas en el uso de herramientas como Firebase, Angular, Flutter, Android, Google Assistant, Google Cloud, Chrome, HTML5, entre otras. Está abierto a desarrolladores, diseñadores, profesionales, estudiantes y toda persona interesada en tecnologías Google; con la idea de romper la barrera que existe entre desarrolladores y usuarios, enfocando los eventos hacia ambos sectores, logrando una comunicación fluida, e invitándolos contínuamente a formar parte activa del mismo."
