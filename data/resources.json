@@ -7,7 +7,7 @@
   "share": "Compartir en",
   "followUs": "Síguenos",
   "emailUs": "Escríbenos",
-  "buyTicket": "Comprar entrada",
+  "buyTicket": "Entradas",
   "signIn": "Iniciar sesión",
   "signOut": "Salir",
   "viewHighlights": "Ver trailer (muy pronto)",
@@ -142,29 +142,29 @@
     "save": "Ahorra ${discount}%!"
   },
   "galleryBlock": {
-    "title": "#dfua16 highlights",
-    "description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "title": "Mejores momentos #DevFest17",
+    "description": "Contamos con la participación de varios profesionales en el ámbito tecnológico, se tuvo un debate entre los profesionales Yury Camacho, Leonardo Pittelli, Carlos Olivera y Dan Ardelean. Además, festejamos entre todos el logro de nuestro GDG Organizer, Yury Camacho, en ser el primer Google Developer Expert boliviano!.",
     "callToAction": {
-      "label": "See all photos",
-      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+      "label": "Ver fotos",
+      "link": "https://www.facebook.com/media/set/?set=a.1310677949078030&type=1&l=66af1dd64e"
     }
   },
   "aboutOrganizerBlock": {
     "image": "/images/team.jpg",
     "blocks": [
       {
-        "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+        "title": "Organización",
+        "description": "Los 40+ miembros activos del <a href='http://gdg.com.bo' target='_blank'>GDG Cochabamba</a> son los organizadores del GDG DevFest Cochabamba",
         "callToAction": {
-          "label": "Open team page",
-          "link": "/team"
+          "label": "Ver el equipo",
+          "link": "/equipo"
         }
       },
       {
-        "title": "What is GDG?",
-        "description": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
+        "title": "Qué es un GDG?",
+        "description": "Un Google Developer Group (GDG) es una es una comunidad geek abierta y voluntaria apasionada por la tecnología. Trabajan en proyectos emocionantes, comparten experiencias con tecnologías Google y forman lazos de amistad y apoyo mútuo.",
         "callToAction": {
-          "label": "Read more",
+          "label": "Leer más",
           "link": "https://developers.google.com/groups/",
           "newTab": true
         }

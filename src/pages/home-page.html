@@ -39,10 +39,6 @@
         font-size: 22px;
       }
 
-      .info-items > *:not(:first-of-type) {
-        margin-top: 4px;
-      }
-
       .action-buttons {
         margin: 0 -8px;
         font-size: 14px;
@@ -140,10 +136,9 @@
       <div class="home-content" layout vertical center>
         <plastic-image class="hero-logo" srcset="/images/logo.svg" alt="{$ title $}"></plastic-image>
         <div class="info-items highlight-font">
-          <div class="info-item">{$ location.venue $}. {$ dates $}</div>
-          <div class="info-item">{$ heroSettings.home.description $}</div>
+          <div class="info-item">{$ location.venue $} &middot; {$ dates $}</div>
+          <div class="info-item light-font"><small>{$ heroSettings.home.description $}</small></div>
         </div>
-
 
         <div class="action-buttons" layout horizontal center-justified wrap>
           <paper-button
