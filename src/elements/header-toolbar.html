@@ -2,13 +2,13 @@
 
 <link rel="import" href="../mixins/redux-mixin.html">
 <link rel="import" href="./shared-styles.html">
+<link rel="import" href="../mixins/scroll-functions.html">
 
 <dom-module id="header-toolbar">
   <template>
     <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
 
     <style>
-
       :host {
         --iron-icon-fill-color: currentColor;
         display: block;
@@ -52,7 +52,8 @@
         --paper-tabs-selection-bar-color: var(--default-primary-color);
         --paper-tabs: {
           height: 64px;
-        };
+        }
+        ;
       }
 
       .nav-item a,
@@ -128,25 +129,14 @@
 
     <app-toolbar class="header">
       <div>
-        <paper-icon-button
-          icon="hoverboard:menu"
-          hidden$="[[viewport.isLaptopPlus]]"
-          aria-label="menu"
-          on-tap="openDrawer"
-        ></paper-icon-button>
+        <paper-icon-button icon="hoverboard:menu" hidden$="[[viewport.isLaptopPlus]]" aria-label="menu" on-tap="openDrawer"></paper-icon-button>
       </div>
       <div layout horizontal center flex>
         <a class="toolbar-logo" href="/" hidden$="[[!viewport.isLaptopPlus]]" layout horizontal title="{$ title $}"></a>
       </div>
 
-      <paper-tabs
-        class="nav-items"
-        selected="[[route.route]]"
-        attr-for-selected="name"
-        hidden$="[[!viewport.isLaptopPlus]]"
-        role="navigation"
-        noink
-      >
+      <paper-tabs class="nav-items" selected="[[route.route]]" attr-for-selected="name" hidden$="[[!viewport.isLaptopPlus]]" role="navigation"
+        noink>
         {% for nav in navigation %}
         <paper-tab name="{$ nav.route $}" class="nav-item" link>
           <a href="{$ nav.permalink $}" layout vertical center-center>{$ nav.label $}</a>
@@ -154,25 +144,13 @@
         {% endfor %}
 
         <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
-      <!-- UNCOMMENT WHEN TICKETS ARE READY
-        <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
-           ga-event-category="ticket button" ga-event-action="buy_click">
+        <a on-click="_scrollToTickets">
           <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
         </a>
-      -->
       </paper-tabs>
 
-      <paper-menu-button
-        id="notificationsMenu"
-        class="notifications-menu"
-        vertical-align="top"
-        horizontal-align="right"
-        no-animations
-      >
-        <paper-icon-button
-          icon="hoverboard:[[_getNotificationsIcon(notifications.status)]]"
-          slot="dropdown-trigger"
-        ></paper-icon-button>
+      <paper-menu-button id="notificationsMenu" class="notifications-menu" vertical-align="top" horizontal-align="right" no-animations>
+        <paper-icon-button icon="hoverboard:[[_getNotificationsIcon(notifications.status)]]" slot="dropdown-trigger"></paper-icon-button>
         <div class="dropdown-panel" slot="dropdown-content">
           <div hidden$="[[_hideNotificationBlock(notifications.status, 'DEFAULT')]]">
             <p>{$ notifications.default $}</p>
@@ -198,22 +176,11 @@
         </div>
       </paper-menu-button>
 
-      <paper-menu-button
-        class="auth-menu"
-        hidden$="[[!user.signedIn]]"
-        vertical-align="top"
-        horizontal-align="right"
-        no-animations
+      <paper-menu-button class="auth-menu" hidden$="[[!user.signedIn]]" vertical-align="top" horizontal-align="right" no-animations
         layout horizontal center-center>
-        <div
-          class="profile-image" slot="dropdown-trigger"
-          style$="background-image: url('[[user.photoURL]]')"
-        ></div>
+        <div class="profile-image" slot="dropdown-trigger" style$="background-image: url('[[user.photoURL]]')"></div>
         <div class="dropdown-panel profile-details" slot="dropdown-content" layout horizontal>
-          <div
-            class="profile-image" slot="dropdown-trigger" self-center
-            style$="background-image: url('[[user.photoURL]]')"
-          ></div>
+          <div class="profile-image" slot="dropdown-trigger" self-center style$="background-image: url('[[user.photoURL]]')"></div>
           <div layout vertical center-justified>
             <span class="profile-name">[[user.displayName]]</span>
             <span class="profile-email">[[user.email]]</span>
@@ -222,18 +189,14 @@
         </div>
       </paper-menu-button>
 
-      <paper-icon-button
-        icon="hoverboard:account"
-        on-tap="signIn"
-        hidden$="[[_isAccountIconHidden(user.signedIn, viewport.isLaptopPlus)]]"
-      ></paper-icon-button>
+      <paper-icon-button icon="hoverboard:account" on-tap="signIn" hidden$="[[_isAccountIconHidden(user.signedIn, viewport.isLaptopPlus)]]"></paper-icon-button>
     </app-toolbar>
 
   </template>
 
   <script>
-
-    class HeaderToolbar extends ReduxMixin(Polymer.Element) {
+    // eslint-disable-next-line no-undef
+    class HeaderToolbar extends ScrollFunctions(ReduxMixin(Polymer.Element)) {
       static get is() {
         return 'header-toolbar';
       }
@@ -315,12 +278,21 @@
         this.dispatch(notificationsActions.requestPermission());
       }
 
+      _scrollToTickets() {
+        // eslint-disable-next-line no-undef
+        const toolbarHeight = HOVERBOARD.Elements.HeaderToolbar.getBoundingClientRect().height - 1;
+        // eslint-disable-next-line no-undef
+        const ticketsBlockPositionY = HOVERBOARD.Elements.Tickets.getBoundingClientRect().top -
+          toolbarHeight;
+        this.scrollToY(ticketsBlockPositionY, 600, 'easeInOutSine');
+      }
+
       _getNotificationsIcon(status) {
-        return status === NOTIFICATIONS_STATUS.DEFAULT
-          ? 'bell-outline'
-          : status === NOTIFICATIONS_STATUS.GRANTED
-            ? 'bell'
-            : 'bell-off';
+        return status === NOTIFICATIONS_STATUS.DEFAULT ?
+          'bell-outline' :
+          status === NOTIFICATIONS_STATUS.GRANTED ?
+          'bell' :
+          'bell-off';
       }
 
       _hideNotificationBlock(status, blockStatus) {
@@ -352,5 +324,6 @@
     }
 
     customElements.define(HeaderToolbar.is, HeaderToolbar);
+
   </script>
 </dom-module>
