@@ -44,7 +44,8 @@
         height: 32px;
         background-color: var(--default-primary-color);
         transition: background-color var(--animation);
-        -webkit-mask: url('/images/logo-monochrome.svg') no-repeat;
+        mask: url('/images/logo-black.svg') no-repeat;
+        -webkit-mask: url('/images/logo-black.svg') no-repeat;
       }
 
       .nav-items {
@@ -143,7 +144,6 @@
         {% endfor %}
 
         <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
-
         <a on-click="_scrollToTickets">
           <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
         </a>
