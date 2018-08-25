@@ -109,6 +109,9 @@
       }
     }
   },
+  "soonBlock": {
+    "Description": "Muy pronto..."
+  },
   "speakers": {
     "skills": "Habilidades",
     "previousYears": "Años",
