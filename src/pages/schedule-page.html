@@ -70,15 +70,15 @@
       active="[[active]]"
     >
       <div class="hero-title highlight-font">{$ heroSettings.schedule.title $}</div>
-      <p class="hero-description">{$ heroSettings.schedule.description $}</p>
-      <sticky-element slot="bottom" active="[[active]]">
+      <p class="hero-description">{$ heroSettings.schedule.metaDescription $}</p>
+      <!-- <sticky-element slot="bottom" active="[[active]]">
         <header-bottom-toolbar></header-bottom-toolbar>
-      </sticky-element>
+      </sticky-element> -->
     </hero-block>
 
     <paper-progress indeterminate hidden$="[[contentLoaderVisibility]]"></paper-progress>
 
-    <div class="container">
+    <!-- <div class="container">
       <content-loader
         card-padding="15px"
         card-margin="16px 0"
@@ -116,7 +116,7 @@
           featured-sessions="[[featuredSessions]]"
         ></my-schedule>
       </iron-pages>
-    </div>
+    </div> -->
 
     <footer-block></footer-block>
   </template>
