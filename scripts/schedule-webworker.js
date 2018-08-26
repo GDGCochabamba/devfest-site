@@ -68,13 +68,22 @@ self.addEventListener('message', ({ data }) => {
       const timeslot = day.timeslots[timeslotsIndex];
       let innerSessions = [];
 
+      if (!timeslot.sessions) {
+        timeslot.sessions = [];
+      }
       const sessionsLen = timeslot.sessions.length;
       for (let sessionIndex = 0; sessionIndex < sessionsLen; sessionIndex++) {
         let subSessions = [];
 
-        const subSessionsLen = timeslot.sessions[sessionIndex].items.length;
+        if (!timeslot.sessions[sessionIndex]) {
+          continue;
+        }
+        const sessionItems = timeslot.sessions[sessionIndex].items
+          ? timeslot.sessions[sessionIndex].items
+          : timeslot.sessions[sessionIndex];
+        const subSessionsLen = sessionItems.length;
         for (let subSessionIndex = 0; subSessionIndex < subSessionsLen; subSessionIndex++) {
-          const sessionId = timeslot.sessions[sessionIndex].items[subSessionIndex];
+          const sessionId = sessionItems[subSessionIndex];
           const subsession = sessionsRaw[sessionId];
           const mainTag = subsession.tags ? subsession.tags[0] : 'General';
           const endTimeRaw = timeslot.sessions[sessionIndex].extend
@@ -82,15 +91,10 @@ self.addEventListener('message', ({ data }) => {
             : timeslot.endTime;
           const endTime = subSessionsLen > 1
             ? getEndTime(
-              dayKey,
-              timeslot.startTime,
-              endTimeRaw,
-              subSessionsLen,
-              subSessionIndex + 1
-            )
+              day.dateReadable, timeslot.startTime, endTimeRaw, subSessionsLen, subSessionIndex + 1)
             : endTimeRaw;
           const startTime = subSessionsLen > 1 && subSessionIndex > 0
-            ? sessions[timeslot.sessions[sessionIndex].items[subSessionIndex - 1]].endTime
+            ? sessions[sessionItems[subSessionIndex - 1]].endTime
             : timeslot.startTime;
 
           if (subsession.tags) {
@@ -126,10 +130,12 @@ self.addEventListener('message', ({ data }) => {
         }
 
         const start = `${timeslotsIndex + 1} / ${sessionIndex + 1}`;
-        const end = `${timeslotsIndex +
-        (timeslot.sessions[sessionIndex].extend || 0) + 1} / ${sessionsLen !== 1
-          ? sessionIndex + 2 : Object.keys(extensions).length ? Object.keys(extensions)[0]
-            : tracksNumber + 1}`;
+        const end = `${timeslotsIndex
+          + (timeslot.sessions[sessionIndex].extend || 0) + 1} / ${sessionsLen !== 1
+          ? sessionIndex + 2 : Object.keys(extensions).length
+            ? Object.keys(extensions)[0]
+            : tracksNumber + 1
+        }`;
 
         if (timeslot.sessions[sessionIndex].extend) {
           extensions[sessionIndex + 1] = timeslot.sessions[sessionIndex].extend;
