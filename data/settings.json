@@ -28,18 +28,18 @@
       "label": "Speakers"
     },
     {
-      "route": "cronograma",
-      "permalink": "/cronograma/",
+      "route": "schedule",
+      "permalink": "/schedule/",
       "label": "Cronograma"
     },
     {
-      "route": "equipo",
-      "permalink": "/equipo/",
+      "route": "team",
+      "permalink": "/team/",
       "label": "Equipo"
     },
     {
-      "route": "publicaciones",
-      "permalink": "/publicaciones/",
+      "route": "posts",
+      "permalink": "/posts/",
       "label": "Publicaciones"
     }
   ],
