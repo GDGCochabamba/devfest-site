@@ -9,6 +9,7 @@
 <link rel="import" href="../mixins/redux-mixin.html">
 <link rel="import" href="../mixins/speakers-hoc.html">
 <link rel="import" href="../mixins/sessions-hoc.html">
+<link rel="import" href="../elements/soon-message-block.html">
 <link rel="import" href="../elements/shared-styles.html">
 <link rel="import" href="../elements/sticky-element.html">
 <link rel="import" href="../elements/header-bottom-toolbar.html">
@@ -70,12 +71,17 @@
       active="[[active]]"
     >
       <div class="hero-title highlight-font">{$ heroSettings.schedule.title $}</div>
-      <p class="hero-description">{$ heroSettings.schedule.description $}</p>
+      <p class="hero-description">{$ heroSettings.schedule.metaDescription $}</p>
+      <!--
       <sticky-element slot="bottom" active="[[active]]">
         <header-bottom-toolbar></header-bottom-toolbar>
       </sticky-element>
+      -->
     </hero-block>
 
+    <soon-message-block></soon-message-block>
+
+    <!--
     <paper-progress indeterminate hidden$="[[contentLoaderVisibility]]"></paper-progress>
 
     <div class="container">
@@ -117,7 +123,7 @@
         ></my-schedule>
       </iron-pages>
     </div>
-
+    -->
     <footer-block></footer-block>
   </template>
 
@@ -165,10 +171,10 @@
 
       static get observers() {
         return [
-          '_setDay(active, routeData.day, schedule)',
+          '_setDay(active, routeData.day, schedule.days)',
           '_openSessionDetails(active, sessions, queryParams.sessionId)',
           '_fetchFeaturedSessions(active, sessions, user.uid)',
-          '_scheduleChanged(schedule)',
+          '_scheduleChanged(schedule.days)',
           '_sessionsAndSpeakersChanged(sessions, speakers)',
         ];
       }
@@ -180,8 +186,8 @@
         }
       }
 
-      _scheduleChanged(schedule) {
-        if (schedule.length) {
+      _scheduleChanged(scheduleDays) {
+        if (scheduleDays) {
           this.contentLoaderVisibility = 'hidden';
         }
       }
@@ -193,9 +199,9 @@
         }
       }
 
-      _setDay(active, day, schedule) {
-        if (active && schedule.length) {
-          const selectedDay = day || schedule[0].date;
+      _setDay(active, day, scheduleDays) {
+        if (active && scheduleDays) {
+          const selectedDay = day || Object.keys(scheduleDays)[0];
           routingActions.setSubRoute(selectedDay);
         }
       }

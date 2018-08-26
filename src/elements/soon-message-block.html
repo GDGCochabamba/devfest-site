@@ -1,0 +1,47 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../mixins/redux-mixin.html">
+<link rel="import" href="shared-animations.html">
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="soon-message-block">
+  <template>
+    <style is="custom-style" include="shared-styles flex flex-alignment flex-reverse"></style>
+
+    <style>
+      :host {
+        display: block;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .description {
+        display: inline-block;
+        font-size: 40px;
+        font-weight: bold;
+        background: -webkit-linear-gradient(240deg, var(--accent-color), var(--focused-color));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+    </style>
+
+  <div class="container">
+    <p class="description highlight-font">Muy Pronto...</p>
+  </div>
+
+  </template>
+
+  <script>
+    class SoonMessageBlock extends ReduxMixin(Polymer.Element) {
+      static get is() {
+        return 'soon-message-block';
+      }
+    }
+    window.customElements.define(SoonMessageBlock.is, SoonMessageBlock);
+  </script>
+</dom-module>

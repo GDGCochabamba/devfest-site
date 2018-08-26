@@ -15,6 +15,7 @@
     <style>
       :host {
         display: block;
+        background: -webkit-linear-gradient(240deg, var(--accent-color), var(--focused-color));
       }
 
       .tickets-wrapper {
@@ -126,6 +127,8 @@
 
     <div class="tickets-wrapper container">
       <h1 class="container-title">{$ ticketsBlock.title $}</h1>
+      <p class="highlight-font">Muy Pronto...</p>
+      <!--
       <content-loader
         class="tickets-placeholder"
         card-padding="24px"
@@ -182,6 +185,7 @@
           </a>
         </template>
       </div>
+      -->
     </div>
 
   </template>

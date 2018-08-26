@@ -109,6 +109,9 @@
       }
     }
   },
+  "soonBlock": {
+    "Description": "Muy pronto..."
+  },
   "speakers": {
     "skills": "Habilidades",
     "previousYears": "Años",
@@ -125,7 +128,7 @@
     "title": "Speakers anteriores",
     "callToAction": {
       "label": "Ver todos",
-      "link": "/speakers-anteriores/"
+      "link": "/previous-speakers/"
     }
   },
   "filters": {
@@ -157,7 +160,7 @@
         "description": "Los 40+ miembros activos del <a href='http://gdg.com.bo' target='_blank'>GDG Cochabamba</a> son los organizadores del GDG DevFest Cochabamba",
         "callToAction": {
           "label": "Ver el equipo",
-          "link": "/equipo"
+          "link": "/team"
         }
       },
       {
@@ -179,7 +182,7 @@
     "title": "Lo último",
     "callToAction": {
       "label": "Ver todas",
-      "link": "/publicaciones/"
+      "link": "/posts/"
     }
   },
   "mapBlock": {

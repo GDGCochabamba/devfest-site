@@ -8,6 +8,7 @@
 <link rel="import" href="../mixins/redux-mixin.html">
 <link rel="import" href="../mixins/speakers-hoc.html">
 <link rel="import" href="../elements/text-truncate.html">
+<link rel="import" href="../elements/soon-message-block.html">
 <link rel="import" href="./shared-styles.html">
 
 <dom-module id="speakers-block">
@@ -146,7 +147,8 @@
 
     <div class="container">
       <h1 class="container-title">{$ speakersBlock.title $}</h1>
-
+      <soon-message-block></soon-message-block>
+    <!--
       <div class="speakers-wrapper">
         <template is="dom-repeat" items="[[featuredSpeakers]]" as="speaker">
           <div class="speaker"
@@ -204,7 +206,7 @@
           <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
         </paper-button>
       </a>
-
+    -->
     </div>
 
   </template>
