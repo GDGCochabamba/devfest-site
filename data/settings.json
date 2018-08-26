@@ -63,7 +63,6 @@
     "speakers": {
       "title": "Speakers",
       "metaDescription": "Pronto publicaremos sobre los invitados internacionales y nacionales confirmados para el DevFest!",
-      "description": "Pronto publicaremos sobre los invitados internacionales y nacionales confirmados para el DevFest!",
       "background": {
         "color": "#FFF"
       },
@@ -96,8 +95,8 @@
   },
   "location": {
     "label": "Ubicación",
-    "venue": "Lugar por definir",
-    "address": "Calle X, Cochabamba, Bolivia",
+    "venue": "Universidad Católica (Campus Tupuraya)",
+    "address": "Calle M. Marques esq. Parque Jorge Trigo Andia, Cochabamba, Bolivia",
     "pointer": {
       "latitude": -17.3941847,
       "longitude": -66.1566139,
@@ -107,7 +106,7 @@
       "latitude": -18,
       "longitude": -65
     },
-    "description": "Pronto daremos a conocer la ubicación oficial del evento!"
+    "description": "El GDG DevFest Cochabamba se realizará en el Campus Tupuraya de la Universidad Católica Boliviana \"San Pablo\", que cuenta con un Auditorio Principal amplio y cómodo para el mejor aprovechamiento de las charlas, además de un espacio para feria tecnológica."
   },
   "mediaQueries": {
     "xs": {
