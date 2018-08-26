@@ -1,9 +1,7 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
-<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
-<link rel="import" href="../../bower_components/paper-button/paper-button.html">
 <link rel="import" href="../mixins/redux-mixin.html">
 <link rel="import" href="shared-animations.html">
-<link rel="import" href="hoverboard-icons.html">
+<link rel="import" href="shared-styles.html">
 
 <dom-module id="soon-message-block">
   <template>
@@ -15,66 +13,26 @@
       }
 
       .container {
-        padding-top: 64px;
-        background: #333;
-        width: 100%;
-        height: 15em;
-    }
-    
-    .content {
-        display: grid;
-        grid-gap: 32px;
-        grid-template-columns: 1fr;
-        text-align: center;
-        padding-top: 0.5em;
-      }
-
-      .numbers {
-        font-size: 35px;
-      }
-
-      .numbers::after {
-        content: "";
-        display: block;
-        height: 2px;
-        width: 64px;
-        background-color: var(--default-primary-color);
-      }
-
-      .label {
-        margin-top: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       .description {
-          font-size: 40px;
-          background: -webkit-linear-gradient(200deg, #4750FC , #3BBFFC);
+        display: inline-block;
+        font-size: 40px;
+        font-weight: bold;
+        background: -webkit-linear-gradient(240deg, var(--accent-color), var(--focused-color));
+        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-      }
-
-      @media (min-width: 640px) {
-        .content {
-          grid-gap: 64px;
-          grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        }
-
-        .numbers {
-          font-size: 56px;
-        }
       }
 
     </style>
 
-    <div class="container">
-      <div class="content">
-        <div>
-          <p class="description">Muy Pronto...</p>
-        </div>
-      </div>
-    </div>
+  <div class="container">
+    <p class="description highlight-font">Muy Pronto...</p>
+  </div>
 
   </template>
 

@@ -175,13 +175,14 @@
       <p class="hero-description">{$ heroSettings.speakers.description $}</p>
     </hero-block>
 
-    <paper-progress indeterminate hidden$="[[contentLoaderVisibility]]"></paper-progress>
+    <soon-message-block></soon-message-block>
+    <!--<paper-progress indeterminate hidden$="[[contentLoaderVisibility]]"></paper-progress>
 
-    <!-- <filter-menu
+    <filter-menu
       filters="[[_filters]]"
       selected="[[_selectedFilters]]"
       results-count="[[speakersToRender.length]]"
-    ></filter-menu> -->
+    ></filter-menu>
 
     <content-loader
       class="container"
@@ -195,7 +196,7 @@
       hidden$="[[contentLoaderVisibility]]"
     ></content-loader>
 
-    <!--<div class="container">
+    <div class="container">
        <template
         is="dom-repeat"
         items="[[speakersToRender]]"
@@ -258,10 +259,8 @@
           </div>
 
         </a>
-      </template> 
-      
+      </template>
     </div>-->
-    <soon-message-block></soon-message-block>
 
     <!-- <previous-speakers-block></previous-speakers-block> -->
     <footer-block></footer-block>
