@@ -19,7 +19,7 @@ Adjust the color scheme to your conference style.
 --primary-background-color:   #FFE0B2;
 
 /* Text colors */
---primary-text-color:       #212121;
+--primary-text-color:       #21221;
 --secondary-text-color:     #727272;
 --disabled-text-color:      #BDBDBD;
 
