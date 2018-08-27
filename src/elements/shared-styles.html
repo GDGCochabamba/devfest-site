@@ -6,26 +6,33 @@
   <template>
     <style>
       :host {
-        --dark-primary-color: #512DA8;
-        --default-primary-color: #673AB7;
-        --focused-color: #4750FC;
+        --primary-accent-color: #3BBFFC;
+        --secondary-accent-color: #4750FC;
         --light-primary-color: #D1C4E9;
-        --text-primary-color: #FFFFFF;
-        --accent-color: #3BBFFC;
-        --primary-background-color: #333333;
-        --primary-text-color: #ffffff;
-        --secondary-text-color: #ffffff;
+        --dark-color: #333333;
+        --mid-color: #AAAAAA;
+        --light-color: #FFFFFF;
+        --primary-text-color: #FFFFFF; /*check usage*/
+        --secondary-text-color: #ffffff; /*check usage*/
         --disabled-text-color: #BDBDBD;
         --divider-color: #EDEDED;
-        --footer-background-color: #F5F5F5;
-        --footer-text-color: #616161;
+        --footer-background-color: #444444;
+        --footer-text-color: #CCCCCC;
         --gplus-color: #DF312D;
         --twitter-color: #4099FF;
         --facebook-color: #3B5998;
         --border-light-color: #E2E2E2;
         --error-color: #e64a19;
         
-        /* Custom */
+        /* Transparencies */
+        --primary-accent-color-alpha10: rgba(59, 191, 252, 0.1);
+        --primary-accent-color-alpha30: rgba(59, 191, 252, 0.3);
+        --primary-accent-color-alpha50: rgba(59, 191, 252, 0.5);
+
+        /* Gradients */
+        --diagonal-gradient-color: -webkit-linear-gradient(60deg, var(--primary-accent-color), var(--secondary-accent-color));
+        --diagonal-gradient-reverse-color: -webkit-linear-gradient(60deg, var(--secondary-accent-color), var(--primary-accent-color));
+
         --default-background-color: #333333;
         --secondary-background-color: #F5F5F5;
         --additional-background-color: #f7f7f7;
@@ -34,13 +41,15 @@
 
         --slideAnimation: 0.4s cubic-bezier(0, 0, 0.2, 1);
         --border-radius: 5px;
-        --box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+        --box-shadow: 3px 3px 7px 0 var(--primary-accent-color-alpha30);
+        --box-shadow-hover: 3px 3px 7px 0 var(--primary-accent-color-alpha50);
+
+        /* TODO Check and change when enabling tickets*/
         --box-shadow-primary-color: 0 3px 3px -2px rgba(103, 58, 183, 0.3), 0 3px 4px 0 rgba(103, 58, 183, 0.3), 0 1px 8px 0 rgba(103, 58, 183, 0.3);
         --box-shadow-primary-color-hover: 0 1px 3px -2px rgba(103, 58, 183, 0.4), 0 4px 5px 0 rgba(103, 58, 183, 0.4), 0 2px 9px 0 rgba(103, 58, 183, 0.4);
         --font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; /*TODO Change to Open Sans*/
         --max-container-width: 1280px;
 
-        --primary-color-transparent: rgba(103, 58, 183, 0.1);
         --primary-color-light: rgba(103, 58, 183, 0.8);
         --primary-color-white: #EDE7F6;
 
@@ -100,7 +109,7 @@
       }
 
       a {
-        color: var(--default-primary-color);
+        color: var(--primary-accent-color);
         text-decoration: none;
         transition: border-color var(--animation);
       }
@@ -109,23 +118,23 @@
         padding: 0.7em;
         border-radius: 2px;
         font-size: 14px;
-        color: var(--default-primary-color);
+        color: var(--primary-accent-color);
         transition: background-color var(--animation);
       }
 
       paper-button:hover {
-        background-color: var(--primary-color-transparent);
+        background-color: var(--primary-accent-color-alpha10);
       }
 
       paper-button[disabled] {
         cursor: default;
-        background-color: var(--primary-color-transparent);
+        background-color: var(--primary-accent-color-alpha10);
         opacity: 0.8;
       }
 
       paper-button[primary] {
-        background-color: var(--default-primary-color);
-        color: var(--text-primary-color);
+        background-color: var(--primary-accent-color);
+        color: var(--primary-text-color);
       }
 
       paper-button[primary]:hover {
@@ -133,8 +142,8 @@
       }
 
       paper-button[primary][invert] {
-        color: var(--default-primary-color);
-        background-color: var(--text-primary-color);
+        color: var(--primary-accent-color);
+        background-color: var(--primary-text-color);
       }
 
       paper-button[primary][invert]:hover {
@@ -142,7 +151,7 @@
       }
 
       paper-button[primary-text] {
-        color: var(--default-primary-color);
+        color: var(--primary-accent-color);
       }
 
       paper-button iron-icon {
@@ -175,6 +184,7 @@
         margin: 0 auto;
         padding: 24px 16px;
         max-width: var(--max-container-width);
+        color: var(--light-color);
       }
 
       .container-narrow {
@@ -186,6 +196,7 @@
         padding: 0;
         font-size: 32px;
         line-height: 30px;
+        color: var(--light-color);
       }
 
       .big-icon {
@@ -206,8 +217,9 @@
       }
 
       .card {
-        background-color: var(--default-background-color);
-        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.07), 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+        background-color: var(--light-color);
+        box-shadow: var(--box-shadow);
+        border-radius: 4px;
         transition: box-shadow var(--animation);
         cursor: pointer;
       }
@@ -226,7 +238,7 @@
         }
 
         .card:hover {
-          box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow-hover);
         }
       }
 

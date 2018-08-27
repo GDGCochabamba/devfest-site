@@ -15,7 +15,7 @@
     <style>
       :host {
         display: block;
-        background: -webkit-linear-gradient(240deg, var(--accent-color), var(--focused-color));
+        background: var(--diagonal-gradient-reverse-color);
       }
 
       .tickets-wrapper {
@@ -37,7 +37,7 @@
       .ticket-item[in-demand] {
         transform: scale(1.05);
         box-shadow: var(--box-shadow-primary-color);
-        border-top: 2px solid var(--default-primary-color);
+        border-top: 2px solid var(--primary-accent-color);
         z-index: 1;
       }
 
@@ -71,13 +71,13 @@
       }
 
       .price {
-        color: var(--default-primary-color);
+        color: var(--primary-accent-color);
         font-size: 40px;
       }
 
       .discount {
         font-size: 14px;
-        color: var(--accent-color);
+        color: var(--primary-accent-color);
       }
 
       .sold-out {
@@ -106,7 +106,7 @@
       }
 
       paper-button[disabled] {
-        background-color: var(--primary-color-transparent);
+        background-color: var(--primary-accent-color-alpha10);
         font-size: 12px;
       }
 

@@ -13,12 +13,9 @@
         --iron-icon-fill-color: currentColor;
         display: block;
         z-index: 1;
-        border-bottom: 1px solid var(--divider-color);
-        background-color: white ;
-        color: #7500B9 ;
+        background-color: var(--light-color);
+        color: var(--secondary-accent-color);
         transition: background-color var(--animation), border-bottom-color var(--animation), color var(--animation);
-        
-
       }
 
       :host([transparent]) {
@@ -44,18 +41,14 @@
         display: block;
         width: 150px;
         height: 32px;
-        background-color: var(--default-primary-color);
-        transition: background-color var(--animation);
-        mask: url('/images/logo-black.svg') no-repeat;
-        -webkit-mask: url('/images/logo-black.svg') no-repeat;
+        background: url('/images/logo-black.svg') no-repeat;
       }
 
       .nav-items {
-        --paper-tabs-selection-bar-color: var(--default-primary-color);
+        --paper-tabs-selection-bar-color: var(--primary-accent-color);
         --paper-tabs: {
           height: 64px;
-        }
-        ;
+        };
       }
 
       .nav-item a,
@@ -77,7 +70,7 @@
         padding: 24px;
         max-width: 300px;
         font-size: 16px;
-        color: #7500B9;
+        color: var(--secondary-accent-color);
       }
 
       .dropdown-panel p {
@@ -105,7 +98,7 @@
       .profile-action {
         margin-top: 4px;
         text-transform: uppercase;
-        color: var(--default-primary-color);
+        color: var(--primary-accent-color);
         font-size: 14px;
         cursor: pointer;
       }
@@ -319,7 +312,7 @@
         this.updateStyles({
           '--hero-font-color': settings.fontColor || '',
           '--hero-logo-opacity': settings.hideLogo ? 0 : 1,
-          '--hero-logo-color': settings.backgroundImage ? '#fff' : 'var(--default-primary-color)',
+          '--hero-logo-color': settings.backgroundImage ? '#fff' : 'var(--primary-accent-color)',
         });
       }
     }
