@@ -28,7 +28,7 @@
       }
 
       .featured {
-        background-color: var(--secondary-background-color);
+        background: var(--diagonal-gradient-color);
       }
 
       .featured-post {
@@ -100,7 +100,7 @@
       active="[[active]]"
     >
       <div class="hero-title highlight-font">{$ heroSettings.blog.title $}</div>
-      <p class="hero-description">{$ heroSettings.blog.description $}</p>
+      <p class="hero-description">{$ heroSettings.blog.metaDescription $}</p>
     </hero-block>
 
     <paper-progress indeterminate hidden$="[[contentLoaderVisibility]]"></paper-progress>

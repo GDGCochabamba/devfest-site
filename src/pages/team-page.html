@@ -18,9 +18,13 @@
       }
 
       .description-wrapper {
-          background-color: var(--secondary-background-color);
-          width: 100%;
-          overflow: hidden;
+        background: var(--primary-accent-color-alpha10);
+        /* TODO Replace background color with a image (may include Google products) */
+        /* background: url('/images/backgrounds/team.jpg');
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: auto 100%; */
+        width: 100%;
       }
 
       .team-title {
@@ -125,7 +129,7 @@
       active="[[active]]"
     >
       <div class="hero-title highlight-font">{$ heroSettings.team.title $}</div>
-      <p class="hero-description">{$ heroSettings.team.description $}</p>
+      <p class="hero-description">{$ heroSettings.team.metaDescription $}</p>
     </hero-block>
 
     <div class="description-wrapper">
