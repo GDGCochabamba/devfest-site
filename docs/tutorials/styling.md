@@ -8,15 +8,15 @@ Adjust the color scheme to your conference style.
 ```html
  /* Primary colors */
 --dark-primary-color:       #F57C00;
---default-primary-color:    #FF9800;
+--primary-accent-color:    #FF9800;
 --light-primary-color:      #FFE0B2;
---text-primary-color:       #212121; /* text / icons */
+--primary-text-color:       #212121; /* text / icons */
 
 /* Accent colors */
---accent-color:             #03A9F4;
+--primary-accent-color:             #03A9F4;
 
 /* Background colors */
---primary-background-color:   #FFE0B2;
+--dark-color:   #FFE0B2;
 
 /* Text colors */
 --primary-text-color:       #212121;

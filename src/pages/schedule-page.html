@@ -26,6 +26,7 @@
       :host {
         display: block;
         height: 100%;
+        background: var(--dark-color);
       }
 
       .container {
@@ -34,19 +35,13 @@
 
       paper-progress {
         width: 100%;
-        --paper-progress-active-color: var(--default-primary-color);
-        --paper-progress-secondary-color: var(--default-primary-color);
+        --paper-progress-active-color: var(--primary-accent-color);
+        --paper-progress-secondary-color: var(--primary-accent-color);
       }
 
       @media (max-width: 640px) {
         .container {
           padding: 0 0 32px;
-        }
-      }
-
-      @media (min-width: 640px) {
-        :host {
-          background-color: #fff;
         }
       }
 

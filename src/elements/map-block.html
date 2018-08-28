@@ -14,16 +14,22 @@
     <style>
 
       :host {
-        margin: 32px auto;
+        margin: 0 auto;
         display: block;
         position: relative;
+        background: var(--dark-color);
+      }
+
+      .blank {
+        height: 32px;
+        background: var(--dark-color);
       }
 
       .description-card {
         margin: 0 -16px;
         padding: 16px;
-        background-color: var(--default-primary-color);
-        color: var(--text-primary-color);
+        background: var(--diagonal-gradient-color);
+        color: var(--primary-text-color);
       }
 
       .bottom-info {
@@ -34,13 +40,14 @@
         --paper-icon-button: {
           width: 48px;
           height: 48px;
-          color: var(--text-primary-color);
+          color: var(--primary-text-color);
         };
       }
 
       @media (min-width: 640px) {
-        :host {
-          margin: 64px auto 72px;
+        .blank {
+          height: 60px;
+          background: var(--dark-color);
         }
 
         .map-container {
@@ -57,7 +64,6 @@
           margin: 0;
           padding: 24px;
           max-width: 320px;
-          transform: translateY(80px);
         }
 
         .address {
@@ -98,7 +104,7 @@
         </div>
       </div>
     </div>
-
+    <div class="blank"></div>
   </template>
 
   <script>

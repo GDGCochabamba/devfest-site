@@ -40,7 +40,12 @@
         },
         {
           "name": "Conoce al equipo",
-          "url": "https://gdg.com.bo/miembros/",
+          "url": "https://gdg.com.bo/members/",
+          "newTab": true
+        },
+        {
+          "name": "Nuestros eventos",
+          "url": "https://gdg.com.bo/events/",
           "newTab": true
         }
       ]
@@ -70,7 +75,7 @@
         },
         {
           "name": "DevFest Cochabamba 2017 (Website)",
-          "url": "https://eventos.gdg.com.bo/devfest2017",
+          "url": "https://devfest-2017-2285e.firebaseapp.com",
           "newTab": true
         }
       ]
@@ -146,9 +151,9 @@
   },
   "galleryBlock": {
     "title": "Mejores momentos #DevFest17",
-    "description": "Contamos con la participación de varios profesionales en el ámbito tecnológico, se tuvo un debate entre los profesionales Yury Camacho, Leonardo Pittelli, Carlos Olivera y Dan Ardelean. Además, festejamos entre todos el logro de nuestro GDG Organizer, Yury Camacho, en ser el primer Google Developer Expert boliviano!.",
+    "description": "Contamos con la participación de profesionales como Yury Camacho, Leonardo Pittelli, Carlos Olivera y Dan Ardelean.",
     "callToAction": {
-      "label": "Ver fotos",
+      "label": "Ver más fotos",
       "link": "https://www.facebook.com/media/set/?set=a.1310677949078030&type=1&l=66af1dd64e"
     }
   },
@@ -189,7 +194,7 @@
     "title": "Ubicación"
   },
   "team": {
-    "description": "El [GDG Cochabamba](https://gdg.com.bo) se fundó en 2011 y lleva a la fecha más de 100 eventos, difundiendo las novedades y buenas prácticas en el uso de herramientas como Firebase, Angular, Flutter, Android, Google Assistant, Google Cloud, Chrome, HTML5, entre otras. Está abierto a desarrolladores, diseñadores, profesionales, estudiantes y toda persona interesada en tecnologías Google; con la idea de romper la barrera que existe entre desarrolladores y usuarios, enfocando los eventos hacia ambos sectores, logrando una comunicación fluida, e invitándolos contínuamente a formar parte activa del mismo."
+    "description": "El [GDG Cochabamba](https://gdg.com.bo) se fundó en 2011 y lleva a la fecha más de **100 eventos**, difundiendo novedades y buenas prácticas en el uso de herramientas y productos Google.\n\n Rompemos la barrera existente entre desarrolladores y usuarios, enfocando los eventos hacia ambos sectores."
   },
   "schedule": {
     "saveSessionsSignedOut": "Inicia sesión para poder guardar charlas"

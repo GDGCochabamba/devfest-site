@@ -28,7 +28,7 @@
       }
 
       .featured {
-        background-color: var(--secondary-background-color);
+        background: var(--diagonal-gradient-color);
       }
 
       .featured-post {
@@ -71,8 +71,8 @@
 
       paper-progress {
         width: 100%;
-        --paper-progress-active-color: var(--default-primary-color);
-        --paper-progress-secondary-color: var(--default-primary-color);
+        --paper-progress-active-color: var(--primary-accent-color);
+        --paper-progress-secondary-color: var(--primary-accent-color);
       }
 
       @media (min-width: 640px) {
@@ -100,7 +100,7 @@
       active="[[active]]"
     >
       <div class="hero-title highlight-font">{$ heroSettings.blog.title $}</div>
-      <p class="hero-description">{$ heroSettings.blog.description $}</p>
+      <p class="hero-description">{$ heroSettings.blog.metaDescription $}</p>
     </hero-block>
 
     <paper-progress indeterminate hidden$="[[contentLoaderVisibility]]"></paper-progress>

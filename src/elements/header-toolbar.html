@@ -13,10 +13,9 @@
         --iron-icon-fill-color: currentColor;
         display: block;
         z-index: 1;
-        border-bottom: 1px solid var(--divider-color);
-        background-color: var(--primary-background-color);
+        background-color: var(--light-color);
+        color: var(--secondary-accent-color);
         transition: background-color var(--animation), border-bottom-color var(--animation), color var(--animation);
-        color: var(--primary-text-color);
       }
 
       :host([transparent]) {
@@ -27,7 +26,7 @@
       }
 
       :host([transparent]) .toolbar-logo {
-        background-color: var(--hero-logo-color);
+        background: url('/images/logo.svg') no-repeat;
         opacity: var(--hero-logo-opacity, 1);
       }
 
@@ -42,18 +41,14 @@
         display: block;
         width: 150px;
         height: 32px;
-        background-color: var(--default-primary-color);
-        transition: background-color var(--animation);
-        mask: url('/images/logo-black.svg') no-repeat;
-        -webkit-mask: url('/images/logo-black.svg') no-repeat;
+        background: url('/images/logo-black.svg') no-repeat;
       }
 
       .nav-items {
-        --paper-tabs-selection-bar-color: var(--default-primary-color);
+        --paper-tabs-selection-bar-color: var(--primary-accent-color);
         --paper-tabs: {
           height: 64px;
-        }
-        ;
+        };
       }
 
       .nav-item a,
@@ -74,9 +69,8 @@
       .dropdown-panel {
         padding: 24px;
         max-width: 300px;
-        background: #fff;
         font-size: 16px;
-        color: var(--primary-text-color);
+        color: var(--secondary-accent-color);
       }
 
       .dropdown-panel p {
@@ -104,7 +98,7 @@
       .profile-action {
         margin-top: 4px;
         text-transform: uppercase;
-        color: var(--default-primary-color);
+        color: var(--primary-accent-color);
         font-size: 14px;
         cursor: pointer;
       }
@@ -318,7 +312,7 @@
         this.updateStyles({
           '--hero-font-color': settings.fontColor || '',
           '--hero-logo-opacity': settings.hideLogo ? 0 : 1,
-          '--hero-logo-color': settings.backgroundImage ? '#fff' : 'var(--default-primary-color)',
+          '--hero-logo-color': settings.backgroundImage ? '#fff' : 'var(--primary-accent-color)',
         });
       }
     }
