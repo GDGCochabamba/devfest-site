@@ -125,34 +125,40 @@
             value: () => (
               {
                 disableDefaultUI: true,
+                zoomControl: true,
                 disableDoubleClickZoom: true,
                 scrollwheel: false,
                 draggable: false,
+                clickableIcons: false,
+                maxZoom: 20,
                 styles: [{
-                  stylers: [{
-                    lightness: 40,
-                  }, {
-                    visibility: 'on',
-                  }, {
-                    gamma: 0.9,
-                  }, {
-                    weight: 0.4,
-                  }],
+                  elementType: 'geometry',
+                  stylers: [{ color: '#555555' }],
                 }, {
-                  elementType: 'labels',
-                  stylers: [{
-                    visibility: 'on',
-                  }],
+                  elementType: 'labels.text.stroke',
+                  stylers: [{ color: '#555555' }],
                 }, {
-                  featureType: 'water',
-                  stylers: [{
-                    color: '#5dc7ff',
-                  }],
+                  elementType: 'labels.text.fill',
+                  stylers: [{ color: '#ACB0E5' }],
+                }, {
+                  featureType: 'administrative.locality',
+                  elementType: 'labels.text.fill',
+                  stylers: [{ color: '#FFFFFF' }],
+                }, {
+                  featureType: 'poi.park',
+                  elementType: 'geometry',
+                  stylers: [{ color: '#34A853' }],
                 }, {
                   featureType: 'road',
-                  stylers: [{
-                    visibility: 'off',
-                  }],
+                  elementType: 'geometry',
+                  stylers: [{ color: '#666666' }],
+                }, {
+                  featureType: 'road',
+                  elementType: 'geometry.stroke',
+                  stylers: [{ color: '#777777' }],
+                }, {
+                  featureType: 'water',
+                  stylers: [{ color: '#3BBFFC' }],
                 }],
               }
             ),
