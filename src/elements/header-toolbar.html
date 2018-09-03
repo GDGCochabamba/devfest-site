@@ -126,7 +126,9 @@
         <paper-icon-button icon="hoverboard:menu" hidden$="[[viewport.isLaptopPlus]]" aria-label="menu" on-tap="openDrawer"></paper-icon-button>
       </div>
       <div layout horizontal center flex>
-        <a class="toolbar-logo" href="/" hidden$="[[!viewport.isLaptopPlus]]" layout horizontal title="{$ title $}"></a>
+        <template is="dom-if" if="{{_shouldRenderLogo(heroSettings)}}">
+          <a class="toolbar-logo" href="/" hidden$="[[!viewport.isLaptopPlus]]" layout horizontal title="{$ title $}"></a>
+        </template>
       </div>
 
       <paper-tabs class="nav-items" selected="[[route.route]]" attr-for-selected="name" hidden$="[[!viewport.isLaptopPlus]]" role="navigation"
@@ -314,6 +316,10 @@
           '--hero-logo-opacity': settings.hideLogo ? 0 : 1,
           '--hero-logo-color': settings.backgroundImage ? '#fff' : 'var(--primary-accent-color)',
         });
+      }
+
+      _shouldRenderLogo(settings) {
+        return settings && settings.hideLogo !== undefined;
       }
     }
 
