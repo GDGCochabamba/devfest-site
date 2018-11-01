@@ -124,9 +124,6 @@
         };
         color: var(--secondary-text-color);
       }
-
-      
-
       paper-progress {
         width: 100%;
         --paper-progress-active-color: var(--primary-accent-color);
@@ -177,8 +174,8 @@
       <p class="hero-description">{$ heroSettings.speakers.metaDescription $}</p>
     </hero-block>
 
-    <soon-message-block></soon-message-block>
-    <!--<paper-progress indeterminate hidden$="[[contentLoaderVisibility]]"></paper-progress>
+    <!-- <soon-message-block></soon-message-block> -->
+    <paper-progress indeterminate hidden$="[[contentLoaderVisibility]]"></paper-progress>
 
     <filter-menu
       filters="[[_filters]]"
@@ -202,8 +199,8 @@
        <template
         is="dom-repeat"
         items="[[speakersToRender]]"
-        as="speaker"
-      >
+        as="speaker">
+
         <a class="speaker card"
            href$="[[speaker.link]]"
            ga-on="click"
@@ -262,7 +259,7 @@
 
         </a>
       </template>
-    </div>-->
+    </div>
 
     <!-- <previous-speakers-block></previous-speakers-block> -->
     <footer-block></footer-block>

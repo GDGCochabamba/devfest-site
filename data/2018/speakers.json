@@ -1,0 +1,441 @@
+{
+  "speakers": {
+    "ale_borba": {
+      "badges": [
+        {
+          "description": "Google Developers Blog",
+          "link": "https://developers.googleblog.com",
+          "name": "google"
+        }
+      ],
+      "bio": "Lider Regional de Google para América Latina. Responsable por los proyectos de Comunidades de desarrolladores en la región y también un entusiasta de Machine Learning.",
+      "company": "Google",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Fgoogle.svg?alt=media&token=8890ee5e-0152-4a27-b145-96db502eeb4f",
+      "country": "Brasil",
+      "featured": true,
+      "id": "ale_borba",
+      "name": "Alexandre Alves Borba",
+      "order": 0,
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Finternational%2Fale-borba.jpg?alt=media&token=e89692ae-96ea-4b5b-a2f9-156e52638585",
+      "shortBio": "Lider Regional de Google para América Latina...",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/ale_borba",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedIn",
+          "link": "https://br.linkedin.com/in/al%C3%AA-borba-597bb918",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Gerente de Programa, relaciones con desarrolladores en Google"
+    },
+    "yury_camacho": {
+      "badges": [
+        {
+          "description": "Android Google Developer Expert",
+          "link": "https://developers.google.com/experts/people/yury-camacho",
+          "name": "gde"
+        }
+      ],
+      "bio": "Yury Camacho es Ingeniero de Sistemas(UMSS), Google Developer Expert en Android, tiene más de 6 años de experiencia en el desarrollo móvil y trabaja en OLX Argentina como Android Software Engineer.",
+      "company": "OLX",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Fgoogle-devs.svg?alt=media&token=a6919c89-fc44-43ba-914c-63ee1faf0bb2",
+      "country": "Bolivia - Argentina",
+      "featured": true,
+      "id": "yury_camacho",
+      "name": "Yury Camacho",
+      "order": 1,
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Fnational%2Fyury-camacho.jpg?alt=media&token=a11d1623-6513-412b-ba09-e3f546c2b5d9",
+      "shortBio": "Yury Camacho es Ingeniero de Sistemas(UMSS), Google Developer Expert en Android...",
+      "socials": [
+        {
+          "icon": "gplus",
+          "link": "https://plus.google.com/115289891215909680651",
+          "name": "Google+"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/camachoyury",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/camachoyury",
+          "name": "Twitter"
+        },
+        {
+          "icon": "website",
+          "link": "https://camachoyury.github.io/blog",
+          "name": "Website"
+        }
+      ],
+      "title": "Google Developer Expert en Android"
+    },
+    "andres_villanueva": {
+      "badges": [
+        {
+          "description": "Firebase Google Developer Expert",
+          "link": "https://developers.google.com/experts/people/andres-villanueva",
+          "name": "gde"
+        }
+      ],
+      "bio": "Andrés es Desarrollador Frontend y Google Developer Expert para Firebase, Venezolano radicado en Argentina, actualmente trabaja como Frontend Lead para una Financiera en Buenos Aires.",
+      "company": "Wenance",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Fgoogle-devs.svg?alt=media&token=a6919c89-fc44-43ba-914c-63ee1faf0bb2",
+      "country": "Venezuela - Argentina",
+      "featured": true,
+      "id": "andres_villanueva",
+      "name": "Andres Villanueva",
+      "order": 2,
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Finternational%2Fandres-villanueva.jpg?alt=media&token=3057d268-19db-407a-be00-3363cc70e1c8",
+      "shortBio": "Andrés es Desarrollador Frontend y Google Developer Expert para Firebase...",
+      "socials": [
+        {
+          "icon": "gplus",
+          "link": "https://plus.google.com/117570038424252253756",
+          "name": "Google+"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/andresvillanuevab",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/villanuevand",
+          "name": "Twitter"
+        },
+        {
+          "icon": "website",
+          "link": "https://www.andresvillanueva.com.ve",
+          "name": "Website"
+        }
+      ],
+      "title": "Google Developer Expert en Firebase"
+    },
+    "antonio_guzman": {
+      "badges": [
+        {
+          "description": "G Suite Google Developer Expert",
+          "link": "https://developers.google.com/experts/people/antonio-guzman-fernandez",
+          "name": "gde"
+        }
+      ],
+      "bio": "Toño es un desarrollador back-end interesado en usar el software para capacitar a las personas. Él piensa que otro mundo es posible y la educación juega un papel clave en este sueño. Le encantan los gatos, las pegatinas y la comida.",
+      "company": "Xertica",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Fgoogle-devs.svg?alt=media&token=a6919c89-fc44-43ba-914c-63ee1faf0bb2",
+      "country": "Iztapalapa, Mexico",
+      "featured": true,
+      "id": "antonio_guzman",
+      "name": "Antonio Guzmán Fernández",
+      "order": 3,
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Finternational%2Fale-borba.jpg?alt=media&token=e89692ae-96ea-4b5b-a2f9-156e52638585",
+      "shortBio": "Toño es un desarrollador back-end interesado en usar el software para capacitar a las personas...",
+      "socials": [
+        {
+          "icon": "gplus",
+          "link": "https://plus.google.com/102505523657824287245",
+          "name": "Google+"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/tonioguzmanf",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Google Developer Expert en G Suite"
+    },
+    "josue_gutierrez": {
+      "badges": [
+        {
+          "description": "Web Technologies, Angular, Identity - Google Developer Expert",
+          "link": "https://developers.google.com/experts/people/josue-gutierrez",
+          "name": "gde"
+        }
+      ],
+      "bio": "Software Developer durante los últimos 11 años, formé parte del programa Google Developer Expert en Tecnologías Web. El software científico y el arte generativo por computadora me apasionan.",
+      "company": "Reprints Desk",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Fgoogle-devs.svg?alt=media&token=a6919c89-fc44-43ba-914c-63ee1faf0bb2",
+      "country": "Mexico",
+      "featured": true,
+      "id": "josue_gutierrez",
+      "name": "Josue Gutierrez Hernandez",
+      "order": 4,
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Finternational%2Fjosue-gutierrez.jpg?alt=media&token=ab1c2a0d-29e1-49ca-acd0-d12552063a3f",
+      "shortBio": "Software Developer durante los últimos 11 años...",
+      "socials": [
+        {
+          "icon": "gplus",
+          "link": "https://plus.google.com/112879101088263231793",
+          "name": "Google+"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/eusoj",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Google Developer Expert en Web Technologies, Angular, Identity"
+    }
+  },
+  "julian_arango": {
+    "badges": [
+      {
+        "description": "Product Strategy - Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/julian-arango",
+        "name": "gde"
+      }
+    ],
+    "bio": "Jefe de producto @ Workia. Developer con 15 años de evolución desde el código hasta el producto, enfocado en el crecimiento y en la experiencia de usuario.",
+    "company": "Workia",
+    "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Fgoogle-devs.svg?alt=media&token=a6919c89-fc44-43ba-914c-63ee1faf0bb2",
+    "country": "Medellin, Colombia",
+    "featured": true,
+    "id": "julian_arango",
+    "name": "Julián Arango",
+    "order": 5,
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Finternational%2Fjulian-arango.jpg?alt=media&token=612f92c0-4cf0-48bc-b3d4-5901fec4e28c",
+    "shortBio": "Jefe de producto @ Workia...",
+    "socials": [
+      {
+        "icon": "gplus",
+        "link": "https://plus.google.com/112630482901061873621",
+        "name": "Google+"
+      },
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/sadeuz",
+        "name": "LinkedIn"
+      },
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/yanoescharro",
+        "name": "Twitter"
+      }
+    ],
+    "title": "Google Developer Expert en Product Strategy"
+  },
+  "carlo_renzo": {
+    "bio": "Padre, desarrollador Android, GDE para Google Assistant y Cyclist.",
+    "company": "Canvia",
+    "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Fgoogle-devs.svg?alt=media&token=a6919c89-fc44-43ba-914c-63ee1faf0bb2",
+    "country": "Perú",
+    "featured": true,
+    "id": "carlo_renzo",
+    "name": "Carlo Renzo Huaman Torres",
+    "order": 6,
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Finternational%2Fcarlo-renzo.jpg?alt=media&token=a797cf9a-5f54-4935-b96d-3cb6dbe9ecac",
+    "shortBio": "GDE para Google Assistant y Cyclist...",
+    "socials": [
+      {
+        "icon": "gplus",
+        "link": "https://plus.google.com/+CarloRenzoHuam%C3%A1nTorres",
+        "name": "Google+"
+      },
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/tohure",
+        "name": "LinkedIn"
+      },
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/Tohure_",
+        "name": "Twitter"
+      }
+    ],
+    "title": "Google Developer Expert en Google Assistant"
+  },
+  "pablo_perez": {
+    "bio": "CTO & Co Founder de tuQuejaSuma. Comunidad que ayuda a los clientes a resolver sus quejas con las empresas. Con más de 500 mil usuarios únicos. NLP Engineer. Chair of PyData Córdoba. TensorFlow BsAs.",
+    "company": "tuQuejaSuma",
+    "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Fgoogle-gevelopers-group.svg?alt=media&token=74568d15-d48e-418c-904e-e516cc5d49ab",
+    "country": "Córdoba, Argentina",
+    "featured": true,
+    "id": "pablo_perez",
+    "name": "Pablo Pérez de Angelis",
+    "order": 7,
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Finternational%2Fpablo-perez.jpeg?alt=media&token=c9f210b7-dcb4-46ad-97ae-f8431247dd33",
+    "shortBio": "CTO & Co Founder de tuQuejaSuma...",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/pablopda",
+        "name": "LinkedIn"
+      }
+    ],
+    "title": "Google Developer Group en Córdoba, Argentina"
+  },
+  "arnold_guzman": {
+    "bio": "Experto en programación con Unity y artista 3D. Fundador de Ancestral Gods, una empresa boliviana de desarrollo de videojuegos.",
+    "company": "Toptal",
+    "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Ftoptal-logo.png?alt=media&token=192f1124-8b83-4ce5-a39b-dfd9013baef2",
+    "country": "Bolivia",
+    "featured": true,
+    "id": "arnold_guzman",
+    "name": "Arnold Marcelo Guzman Concha",
+    "order": 8,
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Fnational%2Farnold-guzman.jpg?alt=media&token=8ac68979-62de-4916-8b18-aa62c2c7818b",
+    "shortBio": "Experto en programación con Unity y artista 3D...",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/arn-marce",
+        "name": "LinkedIn"
+      }
+    ],
+    "title": "Experto Unity en Toptal - Bolivia"
+  },
+  "elias_negrete": {
+    "bio": "Informático orientado al desarrollo de software, con más de 10 años de experiencia, desarrollo de Front-End (Angular 6) y Asp.net Core, uso de Azure Cloud y múltiples herramientas de desarrollo.",
+    "company": "Avatech",
+    "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Fgoogle-gevelopers-group.svg?alt=media&token=74568d15-d48e-418c-904e-e516cc5d49ab",
+    "country": "Santa Cruz, Bolivia",
+    "featured": true,
+    "id": "elias_negrete",
+    "name": "Elias Franklin Negrete Justiniano",
+    "order": 9,
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Fnational%2Felias-negrete.jpg?alt=media&token=6b6747d4-09f9-4cd0-a6f6-74508b01fd2e",
+    "shortBio": "Informático orientado al desarrollo de software...",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/eliasfnegrete",
+        "name": "LinkedIn"
+      },
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/eliasfnegrete",
+        "name": "Twitter"
+      }
+    ],
+    "title": "Experto Angular 6 y ASP.net Core - GDG Santa Cruz Bolivia"
+  },
+  "sergio_ochoa": {
+    "bio": "Desarrollador en OpenKM, Co-fundador de GDG Sucre, desarrollador de aplicaciones Mobiles, encargado de las mejoreas OpenKM de la version comunity, Tester Voluntario de Apache Netbeans.",
+    "company": "OpenKM",
+    "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Fgoogle-gevelopers-group.svg?alt=media&token=74568d15-d48e-418c-904e-e516cc5d49ab",
+    "country": "Sucre, Bolivia",
+    "featured": true,
+    "id": "sergio_ochoa",
+    "name": "Sergio Antonio Ochoa Martinez",
+    "order": 10,
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Fnational%2Fsergio-ochoa.jpg?alt=media&token=391dde89-98d7-437d-b687-51c1d4d20c6c",
+    "shortBio": "Desarrollador en OpenKM, Co-fundador de GDG Sucre...",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/sergio-antonio-ochoa-martinez-7aaa6149",
+        "name": "LinkedIn"
+      },
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/gnujavasergio",
+        "name": "Twitter"
+      },
+      {
+        "icon": "facebook",
+        "link": "http://facebook.com/pelotasplus",
+        "name": "Facebook"
+      }
+    ],
+    "title": "Experto en OpenKM y aplicaciones Mobiles - GDG Sucre Bolivia"
+  },
+  "marlene_choque": {
+    "bio": "Lead Organizer GDG y Women Techmakers Tarija, me considero una persona apasionada por la tecnología e innovación, mis skills están enfocadas al desarrollo Front-End.",
+    "company": "Universidad Privada Domingo Savio",
+    "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Fgoogle-gevelopers-group.svg?alt=media&token=74568d15-d48e-418c-904e-e516cc5d49ab",
+    "country": "Tarija, Bolivia",
+    "featured": true,
+    "id": "marlene_choque",
+    "name": "Marlene Choque Pérez",
+    "order": 11,
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Fnational%2Fmarlene-choque.jpg?alt=media&token=d8ef57d7-cd21-4aeb-95f3-713046d7011e",
+    "shortBio": "Lead Organizer GDG y Women Techmakers Tarija...",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/marlene1218ch",
+        "name": "Twitter"
+      },
+      {
+        "icon": "facebook",
+        "link": "https://www.facebook.com/marlene.choque.98",
+        "name": "Facebook"
+      }
+    ],
+    "title": "Experta desarrolladora Front-End - GDG Tarija Bolivia"
+  },
+  "carlos_collazos": {
+    "bio": "Diseñador UI/UX con más de 8 años de experiencia, actualmente Product Designer en Zekiri y Lead UI/UX Designer en Panal Fresh. Mentor y speaker en más de 27 eventos de tecnología.",
+    "company": "Zekiri - Panal Fresh",
+    "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Fgoogle-gevelopers-group.svg?alt=media&token=74568d15-d48e-418c-904e-e516cc5d49ab",
+    "country": "Cochabamba, Bolivia",
+    "featured": true,
+    "id": "carlos_collazos",
+    "name": "Carlos Collazos",
+    "order": 12,
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Fnational%2Fcarlos-collazos.jpg?alt=media&token=b1d9fe98-5d85-4418-b58a-c0e0f2126a26",
+    "shortBio": "Diseñador UI/UX con más de 8 años de experiencia...",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/carloscollazos",
+        "name": "LinkedIn"
+      },
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/carlitosuxd",
+        "name": "Twitter"
+      }
+    ],
+    "title": "Experto Diseñador UI/UX - GDG Cochabamba Bolivia"
+  },
+  "gustavo_lizarraga": {
+    "bio": "Desarrollador Android - iOS. Trainer. Speaker. Me gustan las tecnologías como Firebase, Kotlin, Machine Learning, Flutter, AngularJS y más.",
+    "company": "Cognos",
+    "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Fgoogle-gevelopers-group.svg?alt=media&token=74568d15-d48e-418c-904e-e516cc5d49ab",
+    "country": "Bolivia",
+    "featured": true,
+    "id": "gustavo_lizarraga",
+    "name": "Gustavo Lizárraga",
+    "order": 13,
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Fnational%2Fgustavo-lizarraga.jpg?alt=media&token=365fef5a-4ce8-4286-a7af-50a78fed92b8",
+    "shortBio": "Desarrollador Android - iOS. Trainer. Speaker...",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/gusn8",
+        "name": "LinkedIn"
+      }
+    ],
+    "title": "Experto desarrollador Android/iOS - GDG Bolivia"
+  },
+  "luis_mantilla": {
+    "bio": "Software Engineer con mas de 2 años de experiencia, actualmente trabajo como Mobile developer en Nearshore Code, Lead Organizer de la comunidad GDG La Paz y Flutter Enthusiastic.",
+    "company": "Nearshore Code",
+    "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/logos%2Fgoogle-gevelopers-group.svg?alt=media&token=74568d15-d48e-418c-904e-e516cc5d49ab",
+    "country": "La Paz, Bolivia",
+    "featured": true,
+    "id": "luis_mantilla",
+    "name": "Luis Miguel Mantilla",
+    "order": 14,
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2018-9690d.appspot.com/o/speakers%2Fnational%2Fluis_mantilla.jpg?alt=media&token=0f87ffcc-8707-436b-bf93-139d84b5cb53",
+    "shortBio": "Software Engineer con mas de 2 años de experiencia...",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/luis-miguel-mantilla",
+        "name": "LinkedIn"
+      },
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/luismmantillac",
+        "name": "Twitter"
+      }
+    ],
+    "title": "Experto desarrollador - GDG La Paz Bolivia"
+  }
+}
