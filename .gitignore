@@ -9,6 +9,8 @@ appengine/dist/
 .temp/
 .vscode/
 .firebaserc
+.DS_Store
 serviceAccount.json
 *.log
 npm-debug.log*
+firebase-debug.log
