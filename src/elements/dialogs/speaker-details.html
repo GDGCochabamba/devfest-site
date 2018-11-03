@@ -54,7 +54,7 @@
       data2="[[speaker.country]]"
     ></polymer-helmet>
 
-    <app-header-layout has-scrolling-region>
+    <app-header-layout has-scrolling-region class="speakers-detail">
       <app-header slot="header" class="header" fixed="[[viewport.isTabletPlus]]">
         <iron-icon
           class="close-icon"
@@ -104,7 +104,7 @@
           </template>
         </div>
 
-        <div class="additional-sections" hidden$="[[!getSessionsBySpeaker(speaker.id).length]]">
+        <!-- <div class="additional-sections" hidden$="[[!getSessionsBySpeaker(speaker.id).length]]">
           <h3>{$ speakerDetails.sessions $}</h3>
 
           <template is="dom-repeat" items="[[getSessionsBySpeaker(speaker.id, sessions)]]" as="session">
@@ -127,7 +127,7 @@
           </template>
         </div>
 
-      </div>
+      </div> -->
     </app-header-layout>
 
   </template>
