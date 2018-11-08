@@ -96,7 +96,53 @@
     function loadHoverboardApp() {
       requestAnimationFrame(() => {
         const app = document.createElement('hoverboard-app');
+
+        const gdgFeedContainer = document.createElement('div');
+        gdgFeedContainer.setAttribute('slot', 'gdg-cochabamba-feed');
+        gdgFeedContainer.setAttribute('class', 'gdg-feed-container');
+
+        const gdgFeed = document.createElement('div');
+        gdgFeed.setAttribute('id', 'gdgFeed');
+        gdgFeed.setAttribute('class', 'fb-page');
+        gdgFeed.setAttribute('data-href', 'https://www.facebook.com/GDGCochabamba/');
+        gdgFeed.setAttribute('data-tabs', 'timeline');
+        gdgFeed.setAttribute('data-small-header', 'false');
+        gdgFeed.setAttribute('data-hide-cover', 'false');
+        gdgFeed.setAttribute('data-show-facepile', 'true');
+        gdgFeed.setAttribute('data-width', Math.max(180, Math.min(window.innerWidth, 500)));
+        gdgFeed.setAttribute('data-adapt-container-width', 'true');
+
+        const gdgFeedBlockquote = document.createElement('blockquote');
+        gdgFeedBlockquote.setAttribute('cite', 'https://www.facebook.com/GDGCochabamba/');
+        gdgFeedBlockquote.setAttribute('class', 'fb-xfbml-parse-ignore');
+
+        const gdgFeedA = document.createElement('a');
+        gdgFeedA.setAttribute('href', 'https://www.facebook.com/GDGCochabamba/');
+        gdgFeedA.textContent = 'GDG Cochabamba';
+
+        gdgFeedBlockquote.appendChild(gdgFeedA);
+        gdgFeed.appendChild(gdgFeedBlockquote);
+        gdgFeedContainer.appendChild(gdgFeed);
+        app.appendChild(gdgFeedContainer);
         document.body.appendChild(app);
+
+        window.fbAsyncInit = function () {
+          /* global FB */
+          FB.init({
+            autoLogAppEvents: true,
+            xfbml: true,
+            version: 'v3.2',
+          });
+        };
+
+        (function (d, s, id) {
+          var js;
+          var fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
       });
     }
 
@@ -168,6 +214,12 @@
       color: #202020;
       overflow: visible;
     }
+
+    .gdg-feed-container {
+      width: 100%;
+      max-width: 500px;
+    }
+
   </style>
 
 </head>

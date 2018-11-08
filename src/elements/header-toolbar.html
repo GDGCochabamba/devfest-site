@@ -126,7 +126,7 @@
         <paper-icon-button icon="hoverboard:menu" hidden$="[[viewport.isLaptopPlus]]" aria-label="menu" on-tap="openDrawer"></paper-icon-button>
       </div>
       <div layout horizontal center flex>
-        <template is="dom-if" if="{{_shouldRenderLogo(heroSettings)}}">
+        <template is="dom-if" if="{{_shouldRenderLogo(heroSettings, route)}}">
           <a class="toolbar-logo" href="/" hidden$="[[!viewport.isLaptopPlus]]" layout horizontal title="{$ title $}"></a>
         </template>
       </div>
@@ -318,7 +318,10 @@
         });
       }
 
-      _shouldRenderLogo(settings) {
+      _shouldRenderLogo(settings, route) {
+        if (route && route.route !== 'home') {
+          return true;
+        }
         return settings && settings.hideLogo !== undefined;
       }
     }
