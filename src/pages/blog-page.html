@@ -31,7 +31,9 @@
       selected="[[routeData.page]]"
       selected-attribute="active"
     >
-      <blog-list-page data-route="" data-path="./blog-list-page.html"></blog-list-page>
+      <blog-list-page data-route="" data-path="./blog-list-page.html">
+        <slot slot="gdg-cochabamba-feed" name="gdg-cochabamba-feed"></slot>
+      </blog-list-page>
       <post-page data-route="posts" data-path="./post-page.html" route="[[subRoute]]"></post-page>
     </iron-lazy-pages>
     <footer-block></footer-block>
